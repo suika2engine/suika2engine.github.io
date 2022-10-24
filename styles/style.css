@@ -1,0 +1,179 @@
+/* Colours and Other Variables */
+:root {
+  /* Suika Colours */
+  --suikaOrange: #FF9F74;
+  --suikaGreen: #91E09F;
+
+  /* Light Mode Colours */
+  --Text: #000; /* Black */
+  --lightText: #707070; /* Off-White, use with 'font-weight: 100;'' */
+  --Hover: #FAF9F6; /* Off-White */
+
+  /* Dark Mode Colours */
+  --darkText: white;
+  --darkBackground: #131516; /* Off-Grey*/
+}
+
+/* General */
+* {
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  min-height: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Navigation */
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  cursor: pointer;
+  margin: 30px 0;
+}
+.menu-icon {
+  width: 25px;
+  cursor: pointer;
+  display: none;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--Text);
+  font-size: 14px;
+  padding: 10px;
+}
+nav ul li a:hover {
+  background-color: var(--Hover);
+  outline: 1px solid black;
+}
+
+/* Footer */
+footer {
+  font-size: 18px;
+  text-align: center;
+}
+footer button {
+  width: auto;
+}
+
+/* Content */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+  border-bottom: 1px solid black;
+}
+.col-1 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 50px;
+  pointer-events: none;
+}
+.col-1 h2 {
+  font-size: 54px;
+  margin: 30px 0;
+}
+.col-1 h3 {
+  font-size: 30px;
+  color: var(--lightText);
+  font-weight: 100;
+  margin: 30px 0;
+}
+.col-1 p {
+  font-size: 18px;
+  color: var(--lightText);
+  font-weight: 100;
+  margin: 30px 0;
+  text-align: justify;
+}
+button {
+  text-decoration: none;
+  width: 140px;
+  border: 0;
+  padding: 12px 10px;
+  outline: none;
+  color: white;
+  background: linear-gradient(to right, #FF9F74, #91E09F); /* Using colours-variables breaks div, use raw colour codes instead */
+  border-radius: 6px;
+  cursor: pointer;
+  pointer-events: all;
+}
+.col-2 {
+  position: relative;
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+}
+.col-2 .midori-image {
+  width: 50%;
+}
+.colour-box {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(to right, #FF9F74, #91E09F); /* Using colours-variables breaks div, use raw colour codes instead */
+  border-radius: 20px 0 0 20px;
+  height: 100%;
+  width: 80%;
+  z-index: -1;
+}
+.social-links {
+  text-align: center;
+}
+.social-links img {
+  height: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+/* Responsive */
+
+/* Dark Mode */
+/* NOT YET READY
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--darkText);
+    background-color: var(--darkBackground);
+  }
+  nav ul li a {
+    color: white;
+  }
+  nav ul li a:hover {
+    background-color: var(--darkHover);
+    outline: 1px solid var(--darkText);
+  }
+  button {
+    outline: 1px solid var(--darkText);
+    background: none;
+    background-color: var(--darkBackground);
+    filter: brightness(75%)
+  }
+  .colour-box {
+    filter: brightness(75%)
+  }
+  .midori-image {
+    filter: brightness(75%)
+  }
+  .row {
+    border-bottom: 1px solid var(--darkText);
+  }
+}
+*/
