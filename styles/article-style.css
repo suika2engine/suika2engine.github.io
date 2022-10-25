@@ -129,17 +129,17 @@ html {
 }
 
 blockquote {
-  border-left: 8px solid var(--Grey);
+  border-left: 8px solid var(--Text);
   padding: 1rem;
 }
 
 pre,
 code {
-  background-color: #fafafa;
+  background-color: var(--Grey);
 }
 
 pre {
-  outline: 1px solid var(--Grey);
+  border: 1px solid var(--Text);
 }
 
 /* Tables */
