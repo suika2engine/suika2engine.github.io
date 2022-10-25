@@ -138,6 +138,12 @@ pre {
   outline: 1px solid var(--Grey);
 }
 
+table {
+  outline: 1px solid var(--Grey);
+}
+
+
+
 button {
   text-decoration: none;
   width: 140px;
