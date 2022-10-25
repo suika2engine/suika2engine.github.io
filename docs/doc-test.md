@@ -30,6 +30,8 @@ And tables, like this:
 ### Third Level Heading
 Links should be displayed properly: [Link Example](https://docs.suika2.com/).
 
+Inline-code and callouts should also be displayed properly `with a thin border and light background`.
+
 ### Third Level Heading
 
 ```
