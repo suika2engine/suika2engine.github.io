@@ -1,0 +1,139 @@
+/* KyouBrayden 25/OCT/2022 */
+
+/* Colours and Other Variables */
+:root {
+  /* Suika Colours */
+  --suikaOrange: #FF9F74;
+  --suikaGreen: #91E09F;
+
+  /* Text and Object Colours */
+  --Grey: #878787;
+}
+
+/* Navigation */
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  cursor: pointer;
+  margin: 30px 0;
+}
+.menu-icon {
+  width: 25px;
+  cursor: pointer;
+  display: none;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--Text);
+  font-size: 14px;
+  padding: 10px;
+}
+nav ul li a:hover {
+  background-color: var(--Hover);
+  outline: 1px solid black;
+}
+
+footer {
+  font-size: 18px;
+  text-align: center;
+}
+footer button {
+  width: auto;
+}
+
+
+/* Article */
+
+/* Responsive Fonts */
+@media screen and (min-width: 30rem) and (max-width: 45rem) {
+  html {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 45rem) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  color: #444;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 45rem;
+  padding: 0.25rem;
+  overflow: scroll;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+  text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  border-bottom: 2px solid var(--Grey);
+  font-weight: inherit;
+  line-height: 1.42;
+  margin: 1.414rem 0 .5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: .5rem;
+  text-align: center;
+}
+
+h1 {
+  border-bottom: none;
+}
+
+.author {
+  font-weight: inherit;
+  line-height: 1.42;
+  margin-bottom: 1.5rem;
+  padding-bottom: .5rem;
+  text-align: center;
+}
+img, video {
+  margin: auto;
+  width: 100%;
+}
+iframe {
+  margin: 25px auto;
+  display: block;
+}
+html {
+  font-size: 18px;
+  max-width: 100%;
+}
+
+blockquote {
+  border-left: 8px solid var(--Grey);
+  padding: 1rem;
+}
+
+pre,
+code {
+  background-color: #fafafa;
+}
+
+pre {
+  outline: 1px solid var(--Grey);
+}
