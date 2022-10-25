@@ -144,36 +144,6 @@ button {
   cursor: pointer;
 }
 
-/* Responsive */
-
-/* Dark Mode */
-/* NOT YET READY
-@media (prefers-color-scheme: dark) {
-  body {
-    color: var(--darkText);
-    background-color: var(--darkBackground);
-  }
-  nav ul li a {
-    color: white;
-  }
-  nav ul li a:hover {
-    background-color: var(--darkHover);
-    outline: 1px solid var(--darkText);
-  }
-  button {
-    outline: 1px solid var(--darkText);
-    background: none;
-    background-color: var(--darkBackground);
-    filter: brightness(75%)
-  }
-  .colour-box {
-    filter: brightness(75%)
-  }
-  .midori-image {
-    filter: brightness(75%)
-  }
-  .row {
-    border-bottom: 1px solid var(--darkText);
-  }
+.article-list {
+  pointer-events: all;
 }
-*/
