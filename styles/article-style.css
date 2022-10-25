@@ -9,6 +9,9 @@
   /* Text and Object Colours */
   --Grey: #878787;
   --darkGrey: #6e6d6d;
+  --Text: #000; /* Black */
+  --lightText: #707070; /* Off-White, use with 'font-weight: 100;'' */
+  --Hover: #FAF9F6; /* Off-White */
 }
 
 /* Navigation */
@@ -144,9 +147,9 @@ pre {
 table {
   border-collapse: collapse;
 }
-/* td {}*/
-th {
-  border: 1px solid #ddd;
+
+td, th {
+  border: 1px solid var(--Text);
   padding: 10px;
 }
 
