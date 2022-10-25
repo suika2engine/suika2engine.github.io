@@ -13,6 +13,12 @@ Several items go here.
   * Item 2.1
     * Item 2.1.1
 
+Lists support links as well, these can be used as tables of contents.
+* [Link 1 – To Homepage](https://docs.suika2.com/)
+* [Item 2 – To Suika2 Blog](https://blog.suika2.com/)
+  * [Item 2.1 – To Suika2 Blog Post](https://blog.suika2.com/2022/10/25/blog-post-title-from-file-name.html)
+    * [Item 2.1.1 – To Japanese Homepage](https://docs.suika2.com/jp/)
+
 ### Third Level Heading
 And tables, like this:
 
