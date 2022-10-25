@@ -141,9 +141,9 @@ pre {
 
 /* Tables */
 
-td, th {
+th {
   border: 1px solid #ddd;
-  padding: 0px;
+  padding: 10px;
 }
 
 th {
