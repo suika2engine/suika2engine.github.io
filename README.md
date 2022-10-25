@@ -17,6 +17,5 @@ Supported Languages:
 * [日本語](https://docs.suika2.com/jp/)
 * [Русский](https://docs.suika2.com/ru/) (Thank you to Max for translation.)
 * [中文](https://docs.suika2.com/zh/) (Simplified)
-* [한국어](https://docs.suika2.com/kr/)
 
 If you find any translation errors, please report them as an issue.
