@@ -146,8 +146,6 @@ td, th {
   padding: 0px;
 }
 
-tr:nth-child(even){background-color: var(--darkGrey);}
-
 th {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -155,8 +153,6 @@ th {
   background-color: var(--Grey);
   color: white;
 }
-
-
 
 button {
   text-decoration: none;
