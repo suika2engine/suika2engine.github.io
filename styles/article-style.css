@@ -8,6 +8,7 @@
 
   /* Text and Object Colours */
   --Grey: #878787;
+  --darkGrey: #6e6d6d;
 }
 
 /* Navigation */
@@ -138,8 +139,19 @@ pre {
   outline: 1px solid var(--Grey);
 }
 
-table {
-  outline: 1px solid var(--Grey);
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: var(--darkGrey);}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--Grey);
+  color: white;
 }
 
 
