@@ -1,3 +1,5 @@
+encoding: UTF-8
+
 url: "https://docs.suika2.com/"
 
 markdown: kramdown
