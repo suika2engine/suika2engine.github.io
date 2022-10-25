@@ -139,6 +139,10 @@ pre {
   outline: 1px solid var(--Grey);
 }
 
+table {
+  padding: 0;
+}
+
 td, th {
   border: 1px solid #ddd;
   padding: 8px;
