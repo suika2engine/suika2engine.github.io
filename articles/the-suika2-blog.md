@@ -1,3 +1,7 @@
+---
+layout: article.html
+---
+
 # The Suika2 Blog
 
 Author: Kyo
