@@ -1,2 +1,4 @@
-url: "https://docs.suika2.com"
-markdown: GFM
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
