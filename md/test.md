@@ -1,5 +1,5 @@
 ---
-layout: article.html
+layout: article
 ---
 
 # The Suika2 Blog
