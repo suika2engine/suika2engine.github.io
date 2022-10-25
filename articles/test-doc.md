@@ -4,7 +4,7 @@
 	<h1>Suika2 Documentation</h1>
 </div>
 
-[Home](/) | [Test-Link 1 – Japanese Homepage](/jp/) | [Test-Link 2 – Korean Homepage](/kr/)
+[Home](/) | [Test-Link 1 - Japanese Homepage](/jp/) | [Test-Link 2 - Korean Homepage](/kr/)
 
 # Welcome
 
