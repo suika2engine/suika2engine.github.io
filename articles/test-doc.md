@@ -1,11 +1,3 @@
-<!-- Header -->
-<div align="left">
-	<img src="https://suika2.com/img/AppIcon.png" width="100" height="100"/>
-	<h1>Suika2 Documentation</h1>
-</div>
-
-[Home](/) | [Test-Link 1 - Japanese Homepage](/jp/) | [Test-Link 2 - Korean Homepage](/kr/)
-
 # Welcome
 
 This is a test article, please ignore.
