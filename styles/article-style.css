@@ -139,13 +139,11 @@ pre {
   outline: 1px solid var(--Grey);
 }
 
-table {
-  padding: 0;
-}
+/* Tables */
 
 td, th {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 0px;
 }
 
 tr:nth-child(even){background-color: var(--darkGrey);}
