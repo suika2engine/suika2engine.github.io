@@ -55,9 +55,9 @@ footer {
   font-size: 18px;
   text-align: center;
 }
-/*footer button {
+footer button {
   width: auto;
-}*/
+}
 
 
 /* Article */
@@ -133,12 +133,13 @@ blockquote {
   padding: 1rem;
 }
 
+/*
+pre,
+code {}
+*/
+
 pre,
 code {
-  background-color: var(--Grey);
-}
-
-pre {
   border: 1px solid var(--Text);
 }
 
