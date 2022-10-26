@@ -27,6 +27,15 @@ And tables, like this:
 | Item 1    | Item 2    |
 | Item 3    | Item 4    |
 
+Blockquotes are also rendered:
+
+> We twa hae run about the braes,  
+> and pou'd the gowans fine;  
+> But we've wander'd mony a weary fit,  
+> sin' auld lang syne.  
+> – *Robert Burns*
+
+
 ### Third Level Heading
 Links should be displayed properly: [Link Example](https://docs.suika2.com/).
 
