@@ -141,6 +141,7 @@ code {}
 pre {
   border: 1px solid var(--Text);
   background-color: #ECEFF0;
+  overflow: scroll;
 }
 
 code {
