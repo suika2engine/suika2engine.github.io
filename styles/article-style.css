@@ -138,6 +138,10 @@ pre,
 code {}
 */
 
+code {
+  border: 1px solid var(--Text);
+}
+
 pre {
   border: 1px solid var(--Text);
 }
