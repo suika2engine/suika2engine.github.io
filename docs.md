@@ -14,3 +14,9 @@ Please select an article to view from the list below.
 * [5. Rules and Transitions](/docs/5.-rules-and-transitions)
 * [6. Suika2 Pro for Creators](/docs/6.-suika2-pro-for-creators)
 * [Creating Commands](/docs/creating-commands)
+
+## Revisions
+The current revision is `0.0.1`, this documentation is equivilent to Wiki revision `0.5.8`.
+
+Revision `0.1`
+* Documentation migrated from the [Wiki](https://github.com/suika2engine/suika2/wiki)
