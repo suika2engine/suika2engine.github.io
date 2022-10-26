@@ -138,11 +138,11 @@ pre,
 code {}
 */
 
-code {
+pre {
   border: 1px solid var(--Text);
 }
 
-pre {
+code {
   border: 1px solid var(--Text);
 }
 
