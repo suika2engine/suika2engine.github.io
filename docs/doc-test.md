@@ -39,7 +39,7 @@ Blockquotes are also rendered:
 ### Third Level Heading
 Links should be displayed properly: [Link Example](https://docs.suika2.com/).
 
-Inline-code and callouts should also be displayed properly `with a thin border and light background`.
+Inline-code and callouts should also be displayed properly `with a slightly darker background colour. Code blocks also feature this colour`.
 
 ### Third Level Heading
 
