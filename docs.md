@@ -18,5 +18,5 @@ Please select an article to view from the list below.
 ## Revisions
 The current revision is `0.0.1`, this documentation is equivilent to Wiki revision `0.5.8`.
 
-Revision `0.1`
+Revision `0.0.1`
 * Documentation migrated from the [Wiki](https://github.com/suika2engine/suika2/wiki)
