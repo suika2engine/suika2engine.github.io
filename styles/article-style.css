@@ -143,7 +143,7 @@ pre {
 }
 
 code {
-  border: 1px solid var(--Text);
+  background-color: #ECEFF0;
 }
 
 /* Tables */
