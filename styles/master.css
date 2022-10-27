@@ -139,6 +139,7 @@ nav .icon {
   .navigation.responsive .dropdown-menu {float: none;}
   .navigation.responsive .dropdown-content {position: relative;}
   .navigation.responsive .dropdown-menu button {
+    float: none;
     display: block;
     width: 100%;
     text-align: left;
