@@ -65,8 +65,9 @@ nav ul li a:hover {
 }
 
 .dropdown {
-  position: relative;
+  list-style: none;
   display: inline-block;
+  margin-right: 30px;
 }
 
 .dropdown-content {
