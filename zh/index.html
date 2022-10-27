@@ -18,21 +18,27 @@
     <div class="container">
 
       <!-- Navigation -->
-      <div class="navbar">
-        <img src="/images/suika-logo.png" class="logo" alt="Suika2 Logo">
-        <nav>
-          <ul id="menuList">
-            <li><a href="/zh/">首页</a></li>
-            <li><a href="https://github.com/suika2engine/suika2/wiki/Tutorial">教程介绍</a></li>
-            <li><a href="https://github.com/suika2engine/suika2/wiki">参考手册</a></li>
-            <li><a href="https://github.com/suika2engine/suika2">GitHub</a></li>
-            <li><a href="/">English</a></li>
-            <li><a href="/jp/">日本語</a></li>
-            <li><a href="/ru/">Русский</a></li>
-            <a href="https://discord.gg/ZmvXxE8GFg"><button type="button">Discord</button></a>
-          </ul>
-        </nav>
-      </div>
+
+      <nav id="navigation">
+        <img style="float:left;" class="logo" src="images/suika-logo.png" alt="">
+        <div style="float:right;">
+          <a href="/">首页</a>
+          <a href="/articles.html">Articles</a>
+          <a href="/docs.html">参考手册</a>
+          <a href="https://github.com/suika2engine/suika2">GitHub</a>
+          <div class="dropdown-menu">
+            <button>Language
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="/">English</a>
+              <a href="/jp/">日本語</a>
+              <a href="/ru/">Русский</a>
+            </div>
+          </div>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="responsiveMenu()">&#9776;</a>
+        </div>
+      </nav>
 
       <!-- Content -->
       <div class="row">
