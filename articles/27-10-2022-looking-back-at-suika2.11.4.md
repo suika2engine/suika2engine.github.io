@@ -8,6 +8,8 @@ Author: [Kyo](https://github.com/KyouBrayden)
 
 Date: 27th October, 2022
 
+![Suika2.11.4-banner.png](/images/suika2.11.4-banner.png)
+
 Hey everyone, it's Kyo again, I hope you've all been having a fantastic week.
 
 This is the first of a somewhat-weekly run-down on Suika2 and its development, so please check back each Friday for a brief overview of the latest regarding the engine.
