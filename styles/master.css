@@ -18,11 +18,11 @@
 .announcement {
   width: 100%;
   background-color: #0E1117;
-  color: white;
   padding: 12px 10px;
 }
 .announcement p {
   font-size: 17px;
+  color: white;
 }
 .container {
   box-sizing: border-box;
