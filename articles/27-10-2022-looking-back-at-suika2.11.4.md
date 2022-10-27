@@ -8,7 +8,7 @@ Author: [Kyo](https://github.com/KyouBrayden)
 
 Date: 27th October, 2022
 
-![Suika2.11.4-banner.png](/images/suika2.11.4-banner.png)
+![Suika2.11.4-banner.png](suika2engine/images/suika2.11.4-banner.png)
 
 Hey everyone, it's Kyo again, I hope you've all been having a fantastic week.
 
