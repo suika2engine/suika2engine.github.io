@@ -4,7 +4,7 @@ layout: article
 
 # The Suika2 Blog
 
-Author: Kyo
+Author: [Kyo](https://github.com/KyouBrayden)
 
 Date: 26th October, 2022
 
