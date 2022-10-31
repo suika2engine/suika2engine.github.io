@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>zh - Suika2</title>
+    <meta
+      name="description"
+      content="Suika2 is a cross-platform, open-source visual novel development engine."
+    />
+    <meta property="og:title" content="zh - Suika2" />
+    <meta
+      property="og:description"
+      content="Suika2 is a cross-platform, open-source visual novel development engine."
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="/assets/suika-logo1.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <style data-section-id="dropdown">
+      [data="dropdown"]:hover > [data="dropdown-list"] {
+          display: flex;
+        }
+
+        [data="dropdown"]:hover > div [data="dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./zh.css" rel="stylesheet" />
+
+      <div class="zh-container">
+        <header data-role="Header" class="zh-header">
+          <a href="zh.html" class="zh-navlink">
+            <img
+              alt="logo"
+              src="public/assets/suika-logo-1500h.png"
+              class="zh-image"
+            />
+          </a>
+          <div class="zh-nav">
+            <nav
+              class="chinese-navigation-nav chinese-navigation-root-class-name"
+            >
+              <a href="zh.html" class="chinese-navigation-navlink">
+                <span>首页</span>
+              </a>
+              <a
+                href="https://github.com/suika2engine/suika2/wiki"
+                class="chinese-navigation-link"
+              >
+                <span>参考手册</span>
+              </a>
+              <a
+                href="https://blog.suika2.com"
+                class="chinese-navigation-link1"
+              >
+                <span>Blog</span>
+              </a>
+              <a href="team.html" class="chinese-navigation-navlink1">
+                <span>Team</span>
+              </a>
+              <a
+                href="https://github.com/suika2engine/suika2"
+                class="chinese-navigation-link2"
+              >
+                <span>GitHub</span>
+              </a>
+              <div
+                data="dropdown"
+                class="chinese-navigation-dropdown list-item"
+              >
+                <div
+                  data="dropdown-toggle"
+                  class="chinese-navigation-dropdown-toggle"
+                >
+                  <span class="chinese-navigation-text">Language</span>
+                  <div
+                    data="dropdown-arrow"
+                    class="chinese-navigation-dropdown-arrow"
+                  >
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      class="chinese-navigation-icon"
+                    >
+                      <path d="M426 726v-428l214 214z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul
+                  data="dropdown-list"
+                  class="chinese-navigation-dropdown-list"
+                >
+                  <li
+                    data="dropdown"
+                    class="chinese-navigation-dropdown list-item"
+                  >
+                    <div
+                      data="dropdown-toggle"
+                      class="chinese-navigation-dropdown-toggle1"
+                    >
+                      <a href="jp.html" class="chinese-navigation-navlink2">
+                        日本語
+                      </a>
+                    </div>
+                  </li>
+                  <li
+                    data="dropdown"
+                    class="chinese-navigation-dropdown1 list-item"
+                  >
+                    <div
+                      data="dropdown-toggle"
+                      class="chinese-navigation-dropdown-toggle2"
+                    >
+                      <a href="index.html" class="chinese-navigation-navlink3">
+                        English
+                      </a>
+                    </div>
+                  </li>
+                  <li
+                    data="dropdown"
+                    class="chinese-navigation-dropdown2 list-item"
+                  >
+                    <div
+                      data="dropdown-toggle"
+                      class="chinese-navigation-dropdown-toggle3"
+                    >
+                      <a href="ru.html" class="chinese-navigation-navlink4">
+                        Русский
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <div class="zh-banner">
+          <div class="zh-container2">
+            <h1 class="zh-text">
+              <span>Suika2.11.4</span>
+              <br />
+              <span>视觉小说引擎</span>
+              <br />
+            </h1>
+            <span class="zh-text05">
+              <span>简单, 速度快, 自由, 多样性.</span>
+              <br />
+              <span></span>
+              <span></span>
+            </span>
+            <div class="zh-btn-group">
+              <a
+                href="https://github.com/suika2engine/suika2/releases/tag/v2.11.4"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="zh-link button"
+              >
+                下载
+              </a>
+              <a href="https://discord.gg/ZmvXxE8GFg" class="zh-link1 button">
+                <span>
+                  <span class="zh-text11">Discord</span>
+                  <br />
+                </span>
+              </a>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/assets/midori-1200w.png"
+            class="zh-image2"
+          />
+        </div>
+        <footer class="zh-footer">
+          <div class="zh-container3">
+            <img
+              alt="logo"
+              src="public/assets/suika-logo-1500h.png"
+              class="zh-image3"
+            />
+            <nav class="zh-nav2">
+              <a href="https://luxion.jp" class="zh-link2">luxion.jp</a>
+              <a href="https://blog.suika2.com" class="zh-link3">
+                blog.suika2.com
+              </a>
+              <a
+                href="https://suika2.com/en/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="zh-link4"
+              >
+                suika2.com
+              </a>
+            </nav>
+          </div>
+          <div class="zh-separator"></div>
+          <div class="zh-container4">
+            <span class="zh-text13">© 2022 The Suika2 Development Team</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>jp - Suika2</title>
+    <meta
+      name="description"
+      content="Suika2 is a cross-platform, open-source visual novel development engine."
+    />
+    <meta property="og:title" content="jp - Suika2" />
+    <meta
+      property="og:description"
+      content="Suika2 is a cross-platform, open-source visual novel development engine."
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="/assets/suika-logo1.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <style data-section-id="dropdown">
+      [data="dropdown"]:hover > [data="dropdown-list"] {
+          display: flex;
+        }
+
+        [data="dropdown"]:hover > div [data="dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./jp.css" rel="stylesheet" />
+
+      <div class="jp-container">
+        <header data-role="Header" class="jp-header">
+          <a href="jp.html" class="jp-navlink">
+            <img
+              alt="logo"
+              src="public/assets/suika-logo-1500h.png"
+              class="jp-image"
+            />
+          </a>
+          <div class="jp-nav">
+            <nav
+              class="japanese-navigation-nav japanese-navigation-root-class-name"
+            >
+              <a href="jp.html" class="japanese-navigation-navlink">
+                <span>ホーム</span>
+              </a>
+              <a
+                href="https://github.com/suika2engine/suika2/wiki"
+                class="japanese-navigation-link"
+              >
+                <span>ドキュメンテーション</span>
+              </a>
+              <a
+                href="https://blog.suika2.com"
+                class="japanese-navigation-link1"
+              >
+                <span>ブログ</span>
+              </a>
+              <a href="team.html" class="japanese-navigation-navlink1">
+                <span>チーム</span>
+              </a>
+              <a
+                href="https://github.com/suika2engine/suika2"
+                class="japanese-navigation-link2"
+              >
+                <span>GitHub</span>
+              </a>
+              <div
+                data="dropdown"
+                class="japanese-navigation-dropdown list-item"
+              >
+                <div
+                  data="dropdown-toggle"
+                  class="japanese-navigation-dropdown-toggle"
+                >
+                  <span class="japanese-navigation-text">原語 | Language</span>
+                  <div
+                    data="dropdown-arrow"
+                    class="japanese-navigation-dropdown-arrow"
+                  >
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      class="japanese-navigation-icon"
+                    >
+                      <path d="M426 726v-428l214 214z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul
+                  data="dropdown-list"
+                  class="japanese-navigation-dropdown-list"
+                >
+                  <li
+                    data="dropdown"
+                    class="japanese-navigation-dropdown list-item"
+                  >
+                    <div
+                      data="dropdown-toggle"
+                      class="japanese-navigation-dropdown-toggle1"
+                    >
+                      <a href="index.html" class="japanese-navigation-navlink2">
+                        English
+                      </a>
+                    </div>
+                  </li>
+                  <li
+                    data="dropdown"
+                    class="japanese-navigation-dropdown1 list-item"
+                  >
+                    <div
+                      data="dropdown-toggle"
+                      class="japanese-navigation-dropdown-toggle2"
+                    >
+                      <a href="zh.html" class="japanese-navigation-navlink3">
+                        中文
+                      </a>
+                    </div>
+                  </li>
+                  <li
+                    data="dropdown"
+                    class="japanese-navigation-dropdown2 list-item"
+                  >
+                    <div
+                      data="dropdown-toggle"
+                      class="japanese-navigation-dropdown-toggle3"
+                    >
+                      <a href="ru.html" class="japanese-navigation-navlink4">
+                        Русский
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <div class="jp-banner">
+          <div class="jp-container02">
+            <h1 class="jp-text">
+              <span>Suika2.11.4</span>
+              <br />
+              <span class="jp-text03">ノベルゲーム</span>
+              <br class="jp-text04" />
+              <span class="jp-text05">制作ツール</span>
+              <br />
+            </h1>
+            <span class="jp-text07">
+              オープンソース、クロスプラットフォーム、簡単
+            </span>
+            <div class="jp-btn-group">
+              <a
+                href="https://github.com/suika2engine/suika2/releases/tag/v2.11.4"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="jp-link button"
+              >
+                ダウンロード
+              </a>
+              <a href="https://discord.gg/ZmvXxE8GFg" class="jp-link1 button">
+                Discordで話します
+              </a>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/assets/midori-1200w.png"
+            class="jp-image2"
+          />
+        </div>
+        <div class="jp-features">
+          <h1 id="about-section" class="jp-text08">こんなメリットがあります</h1>
+          <div class="jp-container03">
+            <div class="jp-feature-card">
+              <div class="jp-container04">
+                <h2 class="jp-text09">1.</h2>
+                <span>
+                  <span>WindowsだけでなくMacでも開発できる</span>
+                  <br />
+                  <br />
+                </span>
+              </div>
+            </div>
+            <div class="jp-feature-card1">
+              <div class="jp-container05">
+                <h2 class="jp-text14">2.</h2>
+                <span>
+                  <span>
+                    乙女ゲーム、美少女ゲーム、年齢指定などジャンルを問わず利用可能
+                  </span>
+                  <br />
+                  <br />
+                </span>
+              </div>
+            </div>
+            <div class="jp-feature-card2">
+              <div class="jp-container06">
+                <h2 class="jp-text19">3.</h2>
+                <span>
+                  <span>商用利用でも完全に無料</span>
+                  <br />
+                </span>
+              </div>
+            </div>
+            <div class="jp-feature-card3">
+              <div class="jp-container07">
+                <h2 class="jp-text23">
+                  <span>4.</span>
+                  <br />
+                </h2>
+                <span>
+                  <span>サポートの対応が迅速</span>
+                  <br />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="jp-updates">
+          <div class="jp-container08">
+            <div class="jp-container09">
+              <div class="jp-container10">
+                <span class="jp-text29">変更点</span>
+                <span class="jp-text30">2.11.4</span>
+                <span class="jp-text31">
+                  <span>Macでの動画再生に対応(mp4ファイル)</span>
+                  <br />
+                </span>
+                <span class="jp-text34">
+                  <span>
+                    WindowsでProgram
+                    Filesへのインストールに対応(リリースモードの追加)
+                  </span>
+                  <br />
+                </span>
+                <span class="jp-text37">
+                  <span>
+                    ロードすると必ずウィンドウタイトルに章タイトルが反映される問題を修正
+                  </span>
+                  <br />
+                </span>
+                <span class="jp-text40">
+                  <span>
+                    ロード直後にログを表示するとクラッシュする問題を修正
+                  </span>
+                  <br />
+                </span>
+                <a href="https://luxion.jp" class="jp-link2 button">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="jp-footer">
+          <div class="jp-container11">
+            <img
+              alt="logo"
+              src="public/assets/suika-logo-1500h.png"
+              class="jp-image3"
+            />
+            <nav class="jp-nav2">
+              <a href="https://luxion.jp" class="jp-link3">luxion.jp</a>
+              <a
+                href="https://blog.suika2.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="jp-link4"
+              >
+                blog.suika2.com
+              </a>
+              <a
+                href="https://suika2.com/en/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="jp-link5"
+              >
+                suika2.com
+              </a>
+            </nav>
+          </div>
+          <div class="jp-separator"></div>
+          <div class="jp-container12">
+            <span class="jp-text43">© 2022 The Suika2 Development Team</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

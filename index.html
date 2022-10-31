@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Suika2</title>
+    <meta
+      name="description"
+      content="Suika2 is a cross-platform, open-source visual novel development engine."
+    />
+    <meta property="og:title" content="Suika2" />
+    <meta
+      property="og:description"
+      content="Suika2 is a cross-platform, open-source visual novel development engine."
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="/assets/suika-logo1.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <style data-section-id="dropdown">
+      [data="dropdown"]:hover > [data="dropdown-list"] {
+          display: flex;
+        }
+
+        [data="dropdown"]:hover > div [data="dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="index-container">
+        <header data-role="Header" class="index-header">
+          <img
+            alt="logo"
+            src="public/assets/suika-logo-1500h.png"
+            class="index-image"
+          />
+          <div class="index-nav">
+            <nav
+              class="english-navigation-nav english-navigation-root-class-name17"
+            >
+              <a href="index.html" class="english-navigation-navlink">
+                <span>Homepage</span>
+              </a>
+              <a
+                href="https://github.com/suika2engine/suika2/wiki"
+                class="english-navigation-link"
+              >
+                <span>Documentation</span>
+              </a>
+              <a
+                href="https://blog.suika2.com"
+                class="english-navigation-link1"
+              >
+                <span>Blog</span>
+              </a>
+              <a href="team.html" class="english-navigation-navlink1">
+                <span>Team</span>
+              </a>
+              <a
+                href="https://github.com/suika2engine/suika2"
+                class="english-navigation-link2"
+              >
+                <span>GitHub</span>
+              </a>
+              <div
+                data="dropdown"
+                class="english-navigation-dropdown list-item"
+              >
+                <div
+                  data="dropdown-toggle"
+                  class="english-navigation-dropdown-toggle"
+                >
+                  <span class="english-navigation-text">Language</span>
+                  <div
+                    data="dropdown-arrow"
+                    class="english-navigation-dropdown-arrow"
+                  >
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      class="english-navigation-icon"
+                    >
+                      <path d="M426 726v-428l214 214z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul
+                  data="dropdown-list"
+                  class="english-navigation-dropdown-list"
+                >
+                  <li
+                    data="dropdown"
+                    class="english-navigation-dropdown list-item"
+                  >
+                    <div
+                      data="dropdown-toggle"
+                      class="english-navigation-dropdown-toggle1"
+                    >
+                      <a href="jp.html" class="english-navigation-navlink2">
+                        日本語
+                      </a>
+                    </div>
+                  </li>
+                  <li
+                    data="dropdown"
+                    class="english-navigation-dropdown1 list-item"
+                  >
+                    <div
+                      data="dropdown-toggle"
+                      class="english-navigation-dropdown-toggle2"
+                    >
+                      <a href="zh.html" class="english-navigation-navlink3">
+                        中文
+                      </a>
+                    </div>
+                  </li>
+                  <li
+                    data="dropdown"
+                    class="english-navigation-dropdown2 list-item"
+                  >
+                    <div
+                      data="dropdown-toggle"
+                      class="english-navigation-dropdown-toggle3"
+                    >
+                      <a href="ru.html" class="english-navigation-navlink4">
+                        Русский
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <div class="index-banner">
+          <div class="index-container02">
+            <h1 class="index-text">
+              <span class="index-text01">Introducing</span>
+              <br />
+              <span>Suika2.11.4</span>
+              <br />
+            </h1>
+            <span class="index-text05">
+              <span>The cross-platform and open-source</span>
+              <br />
+              <span>visual novel development engine.</span>
+              <br />
+              <span></span>
+              <span></span>
+            </span>
+            <div class="index-btn-group">
+              <a
+                href="https://github.com/suika2engine/suika2/releases/tag/v2.11.4"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="index-link button"
+              >
+                Download
+              </a>
+              <a
+                href="https://discord.gg/ZmvXxE8GFg"
+                class="index-link1 button"
+              >
+                Join the Discord
+              </a>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/assets/midori-1200w.png"
+            class="index-image2"
+          />
+        </div>
+        <div class="index-features">
+          <h1 id="about-section" class="index-text12">Why Choose Suika2?</h1>
+          <div class="index-container03">
+            <div class="index-feature-card">
+              <div class="index-container04">
+                <h2 class="index-text13">Cross-Platform</h2>
+                <span>
+                  <span>
+                    Suika2 runs as a native application on Windows, Mac, IOS,
+                    Android, and other platform so you can create and play
+                    without the headache.
+                  </span>
+                  <br />
+                </span>
+              </div>
+            </div>
+            <div class="index-feature-card1">
+              <div class="index-container05">
+                <h2 class="index-text17">Diverse</h2>
+                <span>
+                  <span>
+                    The Suika2 Development Team and community have memebers from
+                    all across the world, with information available in
+                    Japanese, English, and Chinese.
+                  </span>
+                  <br />
+                </span>
+              </div>
+            </div>
+            <div class="index-feature-card2">
+              <div class="index-container06">
+                <h2 class="index-text21">Open-Source</h2>
+                <span>
+                  <span>
+                    Suika2 is an open-source project hosted on GitHub. Found a
+                    bug, have an issue, or want to request a feature? Open an
+                    issue or join the Discord and let us know!
+                  </span>
+                  <br />
+                </span>
+              </div>
+            </div>
+            <div class="index-feature-card3">
+              <div class="index-container07">
+                <h2 class="index-text25">
+                  <span>Easy to Use</span>
+                  <br />
+                </h2>
+                <span>
+                  <span>
+                    Suika2 scenario files (scripts) use Suika2Script, an
+                    efficent visual-novel markup that allows game developers and
+                    authors to focus on writing, rather than syntax.
+                  </span>
+                  <br />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="index-update">
+          <div class="index-container08">
+            <div class="index-container09">
+              <div class="index-container10">
+                <span class="index-text31">'The Video Playback Update'</span>
+                <span class="index-text32">2.11.4</span>
+                <span class="index-text33">Bug Fixes</span>
+                <span class="index-text34">
+                  Video Playback on Mac and Linux
+                </span>
+                <span class="index-text35">Independent Linux Packager</span>
+                <span class="index-text36">'Release Mode'</span>
+                <a href="https://luxion.jp" class="index-link2 button">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="index-footer">
+          <div class="index-container11">
+            <img
+              alt="logo"
+              src="public/assets/suika-logo-1500h.png"
+              class="index-image3"
+            />
+            <nav class="index-nav2">
+              <a href="https://luxion.jp" class="index-link3">luxion.jp</a>
+              <a href="https://blog.suika2.com" class="index-link4">
+                blog.suika2.com
+              </a>
+              <a
+                href="https://suika2.com/en/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="index-link5"
+              >
+                suika2.com
+              </a>
+            </nav>
+          </div>
+          <div class="index-separator"></div>
+          <div class="index-container12">
+            <span class="index-text37">© 2022 The Suika2 Development Team</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
