@@ -49,7 +49,7 @@ HEADER AND MENU – DO NOT EDIT
 					<li><a href="/ru/">Русский</a></li>
 				</ul>
 				<ul class="actions stacked">
-					<li><a href="https://github.com/suika2engine/suika2/releases/tag/v2.11.5" class="button fit primary">ダウンロード</a></li>
+					<li><a href="https://github.com/suika2engine/suika2/releases/tag/v2.11.7" class="button fit primary">ダウンロード</a></li>
 					<li><a href="https://github.com/suika2engine/suika2/wiki" class="button fit">ドキュメンテーション</a></li>
 				</ul>
 			</nav>
@@ -64,21 +64,21 @@ CONTENT – ONLY EDIT UPDATE INFO
 
 				<!-- INTRO -->
 					<section id="announcement" class="announcement">
-						<p>Note: Suika2.11.6 has been released, this update fixes an issue with @chs crashes. We highly recommend upgrading. Please be careful when merging your projects.</p>
+						<p>Note: Suika2.11.7 has been released, this update fixes an issue with @chs crashes. We highly recommend upgrading. Please be careful when merging your projects.</p>
 					</section>
 					<section id="intro" class="wrapper featured style1">
 						<div class="inner">
 							<span class="image"><img src="/images/midori.png" alt="Picture of Midori. She wears a white school shirt and watermelon themed tie and hair ribbons." /></span>
 							<div class="content">
 								<header>
-									<h1>Suika2.11.6<br>ノベルゲーム制作ツール</h1>
+									<h1>Suika2.11.7<br>ノベルゲーム制作ツール</h1>
 									<p>
 										オープンソース、クロスプラットフォーム、簡単。
 									</p>
 								</header>
 								<footer>
 									<ul class="actions">
-										<li><a href="https://github.com/suika2engine/suika2/releases/tag/v2.11.6" class="button big">ダウンロード</a></li>
+										<li><a href="https://github.com/suika2engine/suika2/releases/tag/v2.11.7" class="button big">ダウンロード</a></li>
 										<li><a href="https://discord.gg/ZmvXxE8GFg" class="button big">Discordで話します</a></li>
 									</ul>
 								</footer>
@@ -115,8 +115,15 @@ CONTENT – ONLY EDIT UPDATE INFO
 									<p>2022年11月2日、Suika2.11.5をリリースしました。</p>
 								</header>
 								<p>
-									Fixed @chs crash<br>
-									Improved control key handling while the auto mode is enabled
+									Improved multilingualization support
+									The user's system locale now determines the language of the interface and story
+									i18n config was removed (Internationalization is always ON)
+									ui.msg.* config was removed (Built-in multilingualization)
+									Added the UI translation (For Pro, only English and Japanese are available)
+									Added the multilingualized menu bar to Windows app (optional)
+									Changed Windows app to work with Unicode
+									Updated the minimum macOS version to 10.13 High Sierra
+									Minor bug fixes
 								</p>
 								<footer>
 									<ul class="actions special">
