@@ -9,11 +9,3 @@ highlighter: rouge
 kramdown:
    input: GFM
    hard_wrap: false
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      release.version: "2.11.7"
-      release.date: "8th November, 2022"
