@@ -53,7 +53,7 @@ HEADER AND MENU – DO NOT EDIT
 					<li><a href="/ru/">Русский</a></li>
 				</ul>
 				<ul class="actions stacked">
-					<li><a href="https://github.com/suika2engine/suika2/releases/tag/v2.11.7" class="button fit primary">Download Suika2</a></li>
+					{% include download-link.html %}
 					<li><a href="https://github.com/suika2engine/suika2/wiki" class="button fit">Documentation</a></li>
 				</ul>
 			</nav>
@@ -72,7 +72,7 @@ CONTENT – ONLY EDIT UPDATE INFO
 							<span class="image"><img src="images/midori.png" alt="Picture of Midori. She wears a white school shirt and watermelon themed tie and hair ribbons." /></span>
 							<div class="content">
 								<header>
-									<h1>Suika2.11.7</h1>
+									<h1>Suika {% include version.html %}</h1>
 									<p>
 										Suika2 is a cross-platform, open-source<br/>
 										visual novel development engine.
@@ -80,7 +80,7 @@ CONTENT – ONLY EDIT UPDATE INFO
 								</header>
 								<footer>
 									<ul class="actions">
-										<li><a href="https://github.com/suika2engine/suika2/releases/tag/v2.11.7" class="button big">Download</a></li>
+										{% include download-link.html %}
 										<li><a href="https://discord.gg/ZmvXxE8GFg" class="button big">Discord</a></li>
 									</ul>
 								</footer>
@@ -98,40 +98,11 @@ CONTENT – ONLY EDIT UPDATE INFO
 							<p>
 								Suika2 is an open-source, cross-platform visual novel development engine that allows you to create a feature-rich visual novel with the care and attention to detail that your stories deserve. Featuring support and documentation in Japanese, Chinese, and English as well as active development and an accepting community, Suika2 could be the perfect start to your thrilling adventure, fawning romance, chilling epic, or anything else you could possibly imagine!
 							</p>
-						<!--	<footer>
-								<ul class="actions special">
-									<li><a href="pages/history.html" class="button">Read our History</a></li>
-								</ul>
-							</footer> -->
 						</div>
 					</section>
 
-				<!-- TWO – UPDATE SECTION -->
-					<section class="wrapper style2 special">
-							<div class="inner">
-								<header>
-									<h2>2.11.7</h2>
-									<p>8th of November, 2022</p>
-								</header>
-								<p>
-									Improved multilingualization support<br>
-									The user's system locale now determines the language of the interface and story<br>
-									i18n config was removed (Internationalization is always ON)<br>
-									ui.msg.* config was removed (Built-in multilingualization)<br>
-									Added the UI translation (For Pro, only English and Japanese are available)<br>
-									Added the multilingualized menu bar to Windows app (optional)<br>
-									Changed Windows app to work with Unicode<br>
-									Updated the minimum macOS version to 10.13 High Sierra<br>
-									Minor bug fixes
-								</p>
-								<footer>
-									<ul class="actions special">
-										<li><a href="updates/2-11-7" class="button">Read about the update (2.11.7 - coming soon)</a></li>
-									</ul>
-								</footer>
-							</div>
-						</section>
-
+				{% include update.html %}
+				
 				<!-- THREE – THE TEAM SECTION -->
 					<section class="wrapper style1 special">
 						<div class="inner">
