@@ -1,41 +1,14 @@
-.announcement-announcement {
-  width: 100%;
+.version-container {
   display: flex;
-  padding: var(--dl-space-space-threeunits);
   position: relative;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
 }
-.announcement-text {
+.version-text {
+  color: var(--dl-color-gray-white);
   font-size: 3rem;
-  text-align: center;
 }
-.announcement-text1 {
-  max-width: var(--dl-size-size-maxwidth);
-  margin-top: var(--dl-space-space-twounits);
-  text-align: center;
-  margin-bottom: var(--dl-space-space-twounits);
-}
-
-
-
-@media(max-width: 767px) {
-  .announcement-announcement {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .announcement-text1 {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
-}
-@media(max-width: 479px) {
-  .announcement-announcement {
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
+@media(max-width: 991px) {
+  .version-text {
+    text-align: center;
   }
 }
 
@@ -64,6 +37,7 @@
   margin-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
+
 
 
 
@@ -167,10 +141,6 @@
 }
 .japanese-text {
   color: var(--dl-color-gray-white);
-  font-size: 3rem;
-}
-.japanese-text01 {
-  color: var(--dl-color-gray-white);
   align-self: center;
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
@@ -228,10 +198,10 @@
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
-.japanese-text04 {
+.japanese-text03 {
   font-size: 2rem;
 }
-.japanese-text05 {
+.japanese-text04 {
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
 }
@@ -279,9 +249,6 @@
   .japanese-text {
     text-align: center;
   }
-  .japanese-text01 {
-    text-align: center;
-  }
   .japanese-hero1 {
     flex-direction: column;
   }
@@ -291,10 +258,10 @@
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: 0px;
   }
-  .japanese-text04 {
+  .japanese-text03 {
     text-align: center;
   }
-  .japanese-text05 {
+  .japanese-text04 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -316,7 +283,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .japanese-text05 {
+  .japanese-text04 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }

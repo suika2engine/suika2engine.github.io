@@ -76,7 +76,7 @@
   }
 }
 
-.english-container {
+.chinese-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -84,7 +84,7 @@
   align-items: center;
   flex-direction: column;
 }
-.english-header {
+.chinese-header {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -95,22 +95,22 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.english-logo-container {
+.chinese-logo-container {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.english-logo {
+.chinese-logo {
   height: 3rem;
 }
-.english-language-container {
+.chinese-language-container {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.english-language-button {
+.chinese-language-button {
   color: var(--dl-color-gray-black);
   width: var(--dl-size-size-large);
   text-align: center;
@@ -122,11 +122,11 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-white);
 }
-.english-language-button:hover {
+.chinese-language-button:hover {
   transform: scale(1.02);
   background-color: var(--dl-color-gray-900);
 }
-.english-hero {
+.chinese-hero {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
@@ -139,17 +139,17 @@
   background-image: linear-gradient(90deg, rgba(253,160,116,0.5) 0%, rgba(43,206,95,0.5) 100%),url("public/playground_assets/roof-1500h.png");
   background-position: top left;
 }
-.english-text {
+.chinese-text {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
 }
-.english-btn-group {
+.chinese-btn-group {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.english-link {
+.chinese-link {
   font-size: 0.75rem;
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
@@ -160,10 +160,10 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-.english-link:hover {
+.chinese-link:hover {
   transform: scale(1.02);
 }
-.english-link1 {
+.chinese-link1 {
   color: var(--dl-color-gray-white);
   font-size: 0.75rem;
   transition: 0.3s;
@@ -177,10 +177,10 @@
   text-decoration: none;
   background-color: transparent;
 }
-.english-link1:hover {
+.chinese-link1:hover {
   transform: scale(1.02);
 }
-.english-hero1 {
+.chinese-hero1 {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
@@ -190,26 +190,26 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.english-container1 {
+.chinese-container1 {
   display: flex;
   margin-right: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
-.english-text1 {
+.chinese-text1 {
   font-size: 3rem;
   max-width: 450px;
 }
-.english-text2 {
+.chinese-text2 {
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
 }
-.english-btn-group1 {
+.chinese-btn-group1 {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.english-link2 {
+.chinese-link2 {
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-twounits);
@@ -217,11 +217,11 @@
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.english-link2:hover {
+.chinese-link2:hover {
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
-.english-link3 {
+.chinese-link3 {
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
   padding-top: var(--dl-space-space-unit);
@@ -231,96 +231,96 @@
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.english-link3:hover {
+.chinese-link3:hover {
   border-color: var(--dl-color-gray-black);
 }
-.english-image {
+.chinese-image {
   width: 400px;
   object-fit: cover;
 }
 @media(max-width: 991px) {
-  .english-language-button {
+  .chinese-language-button {
     margin-left: var(--dl-space-space-unit);
   }
-  .english-hero {
+  .chinese-hero {
     flex-direction: column;
   }
-  .english-text {
+  .chinese-text {
     text-align: center;
   }
-  .english-hero1 {
+  .chinese-hero1 {
     flex-direction: column;
   }
-  .english-container1 {
+  .chinese-container1 {
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: 0px;
   }
-  .english-text1 {
+  .chinese-text1 {
     text-align: center;
   }
-  .english-text2 {
+  .chinese-text2 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
 }
 @media(max-width: 767px) {
-  .english-header {
+  .chinese-header {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .english-language-container {
+  .chinese-language-container {
     display: none;
   }
-  .english-hero {
+  .chinese-hero {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .english-hero1 {
+  .chinese-hero1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .english-text2 {
+  .chinese-text2 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .english-image {
+  .chinese-image {
     width: 80%;
   }
 }
 @media(max-width: 479px) {
-  .english-header {
+  .chinese-header {
     padding: var(--dl-space-space-unit);
   }
-  .english-hero {
+  .chinese-hero {
     width: 100%;
     padding: var(--dl-space-space-twounits);
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .english-btn-group {
+  .chinese-btn-group {
     flex-direction: column;
   }
-  .english-link1 {
+  .chinese-link1 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
-  .english-hero1 {
+  .chinese-hero1 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .english-container1 {
+  .chinese-container1 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .english-btn-group1 {
+  .chinese-btn-group1 {
     flex-direction: column;
   }
-  .english-link3 {
+  .chinese-link3 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
