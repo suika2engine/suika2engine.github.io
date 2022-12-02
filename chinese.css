@@ -43,6 +43,8 @@
 
 
 
+
+
 @media(max-width: 767px) {
   .footer-footer {
     padding-left: var(--dl-space-space-twounits);
@@ -196,11 +198,11 @@
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
-.chinese-text1 {
-  font-size: 3rem;
+.chinese-text3 {
+  font-size: 2.5rem;
   max-width: 450px;
 }
-.chinese-text2 {
+.chinese-text4 {
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
 }
@@ -257,10 +259,15 @@
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: 0px;
   }
-  .chinese-text1 {
+  .chinese-text3 {
     text-align: center;
   }
-  .chinese-text2 {
+  .chinese-text4 {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .chinese-text5 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -282,7 +289,11 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .chinese-text2 {
+  .chinese-text4 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .chinese-text5 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
