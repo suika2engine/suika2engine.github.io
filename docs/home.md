@@ -19,19 +19,19 @@ please see [1. Installation and Building from Source](1.-installation-and-buildi
 
 [Return to Main Page](https://docs.suika2.com)
 
-[1. Installation and Building from Source](1.-Installation-and-Building-from-Source)
+[1. Installation and Building from Source](1.-installation-and-building-from-source)
 
-[1.5. Supported Formats](1.5.-Supported-Formats)
+[1.5. Supported Formats](1.5.-supported-formats)
 
-[2. Setup and Configuration](2.-Setup-and-Configuration)
+[2. Setup and Configuration](2.-setup-and-configuration)
 
-[3. Suika2Script and Commands](3.-Suika2Script-and-Commands)
+[3. Suika2Script and Commands](3.-suika2script-and-commands)
 
-[4. Creating a Graphical User Interface](4.-Creating-Graphical-User-Interfaces)
+[4. Creating a Graphical User Interface](4.-creating-graphical-user-interfaces)
 
-[5. Suika2 Pro for Creators](5.-Suika2-Pro-for-Creators)
+[5. Suika2 Pro for Creators](5.-suika2-pro-for-creators)
 
 ## Helpful Articles
-[Multilingualisation](Multilingualisation)
+[Multilingualisation](multilingualisation)
 
-[Creating an NVL](Creating-an-NVL) – Work in Progress
+[Creating an NVL](creating-an-nvl) – Work in Progress
