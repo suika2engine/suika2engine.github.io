@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 <!-- DIV: Header, Header Image (Logo) -->
 <div align="center">
   <img src="https://suika2.com/img/AppIcon.png" width="100" height="100"/>
