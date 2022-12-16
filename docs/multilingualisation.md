@@ -1,3 +1,7 @@
+---
+title: Multilingualisation
+---
+
 [Return to Table of Contents](home)
 
 Suika2 supports several methods of multilingualisation, each with their own benefits and drawbacks.
