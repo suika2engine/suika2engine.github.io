@@ -1,0 +1,82 @@
+.docs-header-header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.docs-header-logo-container {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.docs-header-logo {
+  height: 3rem;
+}
+.docs-header-language-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.docs-header-language-button {
+  color: var(--dl-color-gray-black);
+  width: var(--dl-size-size-xlarge);
+  text-align: center;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-white);
+}
+.docs-header-language-button:hover {
+  transform: scale(1.02);
+  background-color: var(--dl-color-gray-900);
+}
+.docs-header-language-button1 {
+  color: var(--dl-color-gray-black);
+  width: var(--dl-size-size-xlarge);
+  text-align: center;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-white);
+}
+.docs-header-language-button1:hover {
+  transform: scale(1.02);
+  background-color: var(--dl-color-gray-900);
+}
+@media(max-width: 991px) {
+  .docs-header-language-button {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .docs-header-language-button1 {
+    margin-left: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 767px) {
+  .docs-header-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .docs-header-language-container {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .docs-header-header {
+    padding: var(--dl-space-space-unit);
+  }
+}
