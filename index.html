@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<html lang="jp, en">
+<html lang="en">
   <head>
 
-    <!-- TITLE and DESCRIPTIONS -->
-
-    <title>English | Suika2</title>
+    <!-- Metadata -->
+    <title>Home | Suika2</title>
     <meta name="description" content="Suika2 is an open-source, cross-platform visual novel development engine."/>
-    <meta property="og:title" content="English | Suika2"/>
+    <meta property="og:title" content="Home | Suika2"/>
     <meta property="og:description" content="Suika2 is an open-source, cross-platform visual novel development engine."/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charset="utf-8"/>
     <meta property="twitter:card" content="summary_large_image"/>
 
     <!-- STYLES -->
-
     <style data-tag="reset-style-sheet">
       html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
     </style>
@@ -35,171 +33,306 @@
 
       }
     </style>
-    <link rel="shortcut icon" href="public/playground_assets/logo1.png" type="icon/png" sizes="32x32"/>
+    <link rel="shortcut icon" href="public/images/logo1.png" type="icon/png" sizes="32x32"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" data-tag="font"/>
     <link rel="stylesheet" href="public/styles/style.css" />
   </head>
 
-
   <body>
     <div>
-      <link href="public/styles/english.css" rel="stylesheet" />
+      <link href="public/styles/homepage.css" rel="stylesheet"/>
 
-      <div class="english-container">
-        <header data-role="Header" class="english-header">
-          <div class="english-logo-container">
-            <img alt="logo" src="public/playground_assets/logo-1500h.png" class="english-logo"/>
+      <div class="homepage-container">
+        <header data-role="Header" class="header-header">
+          <div class="header-logo-container">
+            <img alt="logo" src="/images/logo-1500h.png" class="header-logo"/>
           </div>
-          <div class="english-language-container">
-            <a href="documentation.html" class="english-language-button button">Documentation</a>
-            <a href="index.html" class="english-language-button1 button">Language</a>
+          <div class="header-language-container">
+            <a href="documentation.html" class="header-language-button button">
+              <span>Documentation</span>
+            </a>
           </div>
         </header>
-
-        <div class="english-hero">
-          <div class="version-container">
-            <h1 class="version-text"><span>Suika2.11.8</span></h1>
+        <div class="homepage-introduction">
+          <div class="homepage-title-container">
+            <h1 class="homepage-title-text">Suika2.11.9</h1>
           </div>
-          <span class="english-text">
+          <span class="homepage-short-description">
             Suika2 is a next-generation, cross-platform, open-source visual
             novel development engine.
           </span>
-          <div class="english-btn-group">
-            <a href="https://github.com/suika2engine/suika2/releases" class="english-link button">Download</a>
+          <div class="homepage-download-e-mail-buttons">
+            <a href="https://github.com/suika2engine/suika2/releases" class="homepage-download-button button">Download</a>
+            <a href="#contact" class="homepage-e-mail-button button">E-mail and Discord</a>
           </div>
         </div>
-        <div id="contact" class="english-contact">
-          <div class="english-container01">
-            <h1 class="english-text01">Get in Touch</h1>
-            <span class="english-text02">
-              <span class="english-text03">
+        <div id="contact" class="homepage-contact">
+          <div class="homepage-container1">
+            <h1 class="homepage-text">Get in Touch</h1>
+            <span class="homepage-text01">
+              <span class="homepage-text02">
                 Have feedback, suggestions, issues, or just want to say hi? Feel
                 free to send Midori an e-mail or join our Discord server!
               </span>
               <br/>
             </span>
-            <div class="english-btn-group1">
-              <a href="mailto:midori@suika2.com?subject=Suika2" class="english-link01 button">E-mail</a>
-              <a href="https://discord.gg/ZmvXxE8GFg" class="english-link02 button">Discord</a>
+            <div class="homepage-btn-group">
+              <a href="mailto:midori@suika2.com?subject=Suika2" class="homepage-link button">E-mail</a>
+              <a href="https://discord.gg/ZmvXxE8GFg" class="homepage-link1 button">Discord</a>
             </div>
           </div>
-          <img alt="Image Midori" src="public/playground_assets/001-fun-1200w.png" class="english-image"/>
+          <img alt="Image Midori" src="public/images/001-fun-1200w.png" class="homepage-image"/>
         </div>
-        <div id="Team" class="english-team">
-          <h1 class="english-text05">The Team</h1>
-          <div class="english-container02">
-            <div class="english-feature-card">
-              <img alt="Image ktabata Profile Picture" src="https://github.com/ktabata.png" class="english-image1"/>
-              <div class="english-container03">
-                <h2 class="english-text06"><span>ktabata ('K')</span><br/></h2>
-                <span class="english-text09"><span>Project Lead and Founder, Lead Programmer</span><br/></span>
-                <span class="english-text12">
-                  <span>
+
+        <!-- Team Section -->
+
+        <div class="homepage-team">
+          <a
+            href="https://github.com/ktabata"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="homepage-link2"
+          >
+            <div class="homepage-ktabata">
+              <div class="homepage-card">
+                <img
+                  alt="Image: ktabata's GitHub Profile"
+                  src="https://github.com/ktabata.png"
+                  image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+                  class="homepage-profile-picture"
+                />
+                <div class="homepage-text04">
+                  <div class="homepage-role-text">
+                    <span class="homepage-text05">
+                      Project lead and founder, lead programmer
+                    </span>
+                  </div>
+                  <h1 class="homepage-text06">
+                    <span>ktabata 'K'</span>
+                    <br />
+                  </h1>
+                  <span class="homepage-text09">
                     Hi, I'm a Japanese programmer. You can call me 'K' if you'd
                     like. I've started this project because I like
                     cross-platform programming. I hope that through the
                     development of Suika2 we can contribute to your visual novel
                     creation.
                   </span>
-                  <br />
-                </span>
-                <a href="https://github.com/ktabata" class="english-link03"><span>View ktabata's GitHub Profile –&gt;</span><br/></a>
+                </div>
               </div>
             </div>
-            <div class="english-feature-card1">
-              <img alt="Image Kyou Profile Picture" src="https://github.com/kyoubrayden.png" class="english-image2"/>
-              <div class="english-container04">
-                <h2 class="english-text17"><span>Kyo(u)</span><br/></h2>
-                <span class="english-text20"><span>Website, Documentation, and Advisor</span><br/></span>
-                <span class="english-text23">
-                  <span>
-                    Hey, I'm Kyo, the website and documentation maintainer for
-                    the Suika2 Project. I love language, writing, and reading.
-                    When I'm not studying or working on Suika2 related stuff,
-                    I'm writing for myself.
+          </a>
+          <a
+            href="https://github.com/kyourobert"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="homepage-link3"
+          >
+            <div class="homepage-kyou">
+              <div class="homepage-card1">
+                <img
+                  alt="Image: Kyou's GitHub Profile"
+                  src="https://github.com/kyourobert.png"
+                  image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+                  class="homepage-profile-picture1"
+                />
+                <div class="homepage-text10">
+                  <div class="homepage-role-text1">
+                    <span class="homepage-text11">
+                      documentation and advisor
+                    </span>
+                  </div>
+                  <h1 class="homepage-text12">
+                    <span>Kyou</span>
+                    <br />
+                  </h1>
+                  <span class="homepage-text15">
+                    <span>
+                      Hey, I'm Kyou, the website and documentation maintainer
+                      for the Suika2 Project. I love language, writing, and
+                      reading. When I'm not studying or working on Suika2
+                      related stuff, I'm writing for myself.
+                    </span>
+                    <br />
+                    <br />
                   </span>
-                  <br/>
-                </span>
-                <a href="https://github.com/kyoubrayden" target="_blank" rel="noreferrer noopener" class="english-link04"><span>View Kyo's GitHub Profile –&gt;</span><br/></a>
+                </div>
               </div>
             </div>
-            <div class="english-feature-card2">
-              <img alt="Image Aitsuki Profile Picture" src="public/playground_assets/aitsuki-200h.png" class="english-image3"/>
-              <div class="english-container05">
-                <h2 class="english-text28"><span>Aitsuki</span><br/></h2>
-                <span class="english-text31"><span>Video, Obfuscation, and Advisor</span><br/></span>
-                <span class="english-text34">
-                  <span>
-                    Hello! I'm Aitsuki, nice to meet you. If you have any
-                    problems, please don't hesitate to let me know and I will
-                    try my best to assist you!
+          </a>
+          <a href="https://github.com/innocentvoice" class="homepage-link4">
+            <div class="homepage-aitsuki">
+              <div class="homepage-card2">
+                <img
+                  alt="Image: Aitsuki's GitHub Profile"
+                  src="public/images/aitsuki-1400w.png"
+                  image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+                  class="homepage-profile-picture2"
+                />
+                <div class="homepage-text19">
+                  <div class="homepage-role-text2">
+                    <span class="homepage-text20">
+                      <span>Video, Obfuscation, and Advisor</span>
+                      <br />
+                    </span>
+                  </div>
+                  <h1 class="homepage-text23">
+                    <span>Aitsuki</span>
+                    <br />
+                  </h1>
+                  <span class="homepage-text26">
+                    <span>
+                      Hello! I'm Aitsuki, nice to meet you. If you have any
+                      problems, please don't hesitate to let me know and I will
+                      try my best to assist you!
+                    </span>
+                    <br />
+                    <span>Oh, by the way I'm very friendly!</span>
+                    <br />
+                    <br />
                   </span>
-                  <br/>
-                  <br/>
-                  <span>Oh, by the way I'm very friendly!</span>
-                  <br/>
-                </span>
-                <a href="https://github.com/innocentvoice" class="english-link05"><span>View Aitsuki's GitHub Profile –&gt;</span><br/></a>
+                </div>
               </div>
             </div>
-            <div class="english-feature-card3">
-              <img alt="Image Max Profile Picture" src="public/playground_assets/max-icon-200h.png" class="english-image4"/>
-              <div class="english-container06">
-                <h2 class="english-text42"><span>Max</span><br/></h2>
-                <span class="english-text45"><span>Graphical Designer and Advisor</span><br/></span>
-                <span class="english-text48">
-                  <span>
-                    Hello! I'm the interface designer for Suika2. I've been with
-                    the team since July 2022 and I've done a lot of work since
-                    then, but even with all this progress, there's still a lot
-                    of work to do to make Suika2 the perfect engine for
-                    everyone!
+          </a>
+          <a href="https://github.com/max-morgan" class="homepage-link5">
+            <div class="homepage-max">
+              <div class="homepage-card3">
+                <img
+                  alt="Image: Max's GitHub Profile"
+                  src="public/images/max-icon-1400w.png"
+                  image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+                  class="homepage-profile-picture3"
+                />
+                <div class="homepage-text32">
+                  <div class="homepage-role-text3">
+                    <span class="homepage-text33">
+                      <span>Graphic Design</span>
+                      <br />
+                    </span>
+                  </div>
+                  <h1 class="homepage-text36">
+                    <span>Max</span>
+                    <br />
+                  </h1>
+                  <span class="homepage-text39">
+                    <span>
+                      Hello! I'm the interface designer for Suika2. I've been
+                      with the team since July 2022 and I've done a lot of work
+                      since then, but even with all this progress, there's still
+                      a lot of work to do to make Suika2 the perfect engine for
+                      everyone!
+                    </span>
+                    <br />
                   </span>
-                  <br/>
-                </span><a href="https://github.com/max-morgan" target="_blank" rel="noreferrer noopener" class="english-link06"><span>View Max's GitHub Profile –&gt;</span><br/></a>
+                </div>
               </div>
             </div>
-            <div class="english-feature-card4">
-              <img alt="Image Minirop Profile Picture" src="public/playground_assets/minirop-200h.png" class="english-image5"/>
-              <div class="english-container07">
-                <h2 class="english-text53"><span>Minirop</span><br/></h2>
-                <span class="english-text56"><span>Code Review</span><br/></span>
-                <span class="english-text59">
-                  <span>'Born to code!' – Minirop, 2022</span><br/><br/><br/><br/><br/></span>
-                <a href="https://github.com/minirop" class="english-link07"><span>View Minirop's GitHub Profile –&gt;</span><br/></a>
-              </div>
-            </div>
-            <div class="english-feature-card5">
-              <img alt="Image Matsuno-san Profile Picture" src="https://github.com/matsunokun.png" class="english-image6"/>
-              <div class="english-container08">
-                <h2 class="english-text68"><span>Matsuno-san</span><br/></h2>
-                <span class="english-text71"><span>Tester, Advisor</span><br/></span>
-                <span class="english-text74"><br/><br/><br/><br/><br/></span>
-                <a href="https://github.com/matsunokun" target="_blank" rel="noreferrer noopener" class="english-link08"><span>View Matsuno-san's GitHub Profile –&gt;</span><br/></a>
-              </div>
-            </div>
-            <div class="english-feature-card6">
-              <img alt="Image Contributors Profile Picture" src="public/playground_assets/contributors-200h.png" class="english-image7"/>
-              <div class="english-container09">
-                <h2 class="english-text82"><span>Contributors</span><br/></h2>
-                <span class="english-text85"><span>Various</span><br/></span>
-                <span class="english-text88">
-                  <span>
-                    For privacy reasons, we cannot disclose public contributors
-                    on this page. Please visit the 'Contributors' section of
-                    Suika2's repository for a full list.
+          </a>
+          <a href="https://github.com/minirop" class="homepage-link6">
+            <div class="homepage-minirop">
+              <div class="homepage-card4">
+                <img
+                  alt="Image: Minirop's GitHub Profile"
+                  src="public/images/minirop-1400w.png"
+                  image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+                  class="homepage-profile-picture4"
+                />
+                <div class="homepage-text42">
+                  <div class="homepage-role-text4">
+                    <span class="homepage-text43">
+                      <span>Code Review, Advisor</span>
+                      <br />
+                    </span>
+                  </div>
+                  <h1 class="homepage-text46">
+                    <span>Minirop</span>
+                    <br />
+                  </h1>
+                  <span class="homepage-text49">
+                    <span>'Born to code!' – Minirop, 2022</span>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                   </span>
-                  <br/>
-                  <br/>
-                </span>
-                <a href="https://github.com/suika2engine/suika2/graphs/contributors" class="english-link09"> <span>View Contributors on GitHub –&gt;</span><br/></a>
+                </div>
               </div>
             </div>
-          </div>
+          </a>
+          <a href="https://github.com/matsunokun" class="homepage-link7">
+            <div class="homepage-matsuno-san">
+              <div class="homepage-card5">
+                <img
+                  alt="Image: Matsuno-san's GitHub Profile"
+                  src="https://github.com/matsunokun.png"
+                  image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+                  class="homepage-profile-picture5"
+                />
+                <div class="homepage-text55">
+                  <div class="homepage-role-text5">
+                    <span class="homepage-text56">
+                      <span>Graphic Design</span>
+                      <br />
+                    </span>
+                  </div>
+                  <h1 class="homepage-text59">
+                    <span>Matsuno-san</span>
+                    <br />
+                  </h1>
+                  <span class="homepage-text62">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://github.com/suika2engine/suika2/graphs/contributors"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="homepage-link8"
+          >
+            <div class="homepage-contributors">
+              <div class="homepage-card6">
+                <img
+                  alt="Image: Matsuno-san's GitHub Profile"
+                  src="public/images/contributors-1400w.png"
+                  image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+                  class="homepage-profile-picture6"
+                />
+                <div class="homepage-text67">
+                  <div class="homepage-role-text6">
+                    <span class="homepage-text68">
+                      <span>Graphic Design</span>
+                      <br />
+                    </span>
+                  </div>
+                  <h1 class="homepage-text71">
+                    <span>Contributors</span>
+                    <br />
+                  </h1>
+                  <span class="homepage-text74">
+                    <span>
+                      For privacy reasons, we cannot disclose public
+                      contributors on this page. Please visit the 'Contributors'
+                      section of Suika2's repository for a full list.
+                    </span>
+                    <br />
+                    <br />
+                    <br />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
         <footer class="footer-footer footer-root-class-name2">
           <span class="footer-text"><span class="footer-text1">Copyright © 2022 the Suika2 Development Team, All Rights Reserved.</span><br/></span>
-          <a href="https://www.github.com/kyoubrayden" class="footer-link"><span>Website design and maintenance by Kyou</span></a>
+          <a href="https://www.github.com/kyourobert" class="footer-link"><span>Website design and maintenance by Kyou</span></a>
         </footer>
       </div>
     </div>
