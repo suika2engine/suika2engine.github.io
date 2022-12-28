@@ -31,6 +31,8 @@ please see [1. Installation and Building from Source](1.-installation-and-buildi
 
 [3. Suika2Script and Commands](3.-suika2script-and-commands)
 
+[3.5. Watermelon Script](3.5.-watermelon-script)
+
 [4. Creating a Graphical User Interface](4.-creating-graphical-user-interfaces)
 
 [5. Suika2 Pro for Creators](5.-suika2-pro-for-creators)
