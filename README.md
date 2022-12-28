@@ -16,3 +16,9 @@ You may have intended to visit [docs.suika2.com](https://docs.suika2.com/).
 日本語: [suika.com](https://suika2.com/)
 
 中文: [suika2.com/zh/](https://suika2.com/zh/)
+
+
+## Website Plans
+
+* Add 'Updates' Section
+* Clean Up Code (Remove tags from old versions of website still left over)
