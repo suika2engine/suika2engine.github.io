@@ -1,5 +1,5 @@
 Address               :       https://docs.suika2.com/
-                              https://docs.suika2.com/docs/home/
+                              https://docs.suika2.com/docs/index
 E-Mail                :       midori@suika2.com
 Current Version       :       1
 
