@@ -1,69 +1,59 @@
-.footer-footer {
+/* Footer */
+footer {
+  margin: auto;
   width: 100%;
   display: flex;
-  position: relative;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
+  border-top: 1px solid var(--dl-color-gray-black);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: center;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
 }
-.footer-text {
+.footer_text_box {
   text-align: center;
 }
-.footer-link {
+.footer_kyou_link {
   margin-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
 @media(max-width: 767px) {
-  .footer-footer {
+  footer {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .footer-text {
+  .footer_text_box {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .footer-text1 {
+  .footer_text_copyright {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
-  .footer-footer {
+  footer {
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .footer-text {
+  .footer_text_box {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .footer-text1 {
+  .footer_text_copyright {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
 }
 
+/* Main Section */
 .documentation-container {
   width: 100%;
   display: flex;
@@ -424,6 +414,8 @@
   line-height: 2;
   margin-bottom: var(--dl-space-space-twounits);
 }
+
+/*Make the Main Section Responsive */
 @media(max-width: 991px) {
   .documentation-language-button {
     margin-left: var(--dl-space-space-unit);

@@ -7,11 +7,11 @@
 
 <!-- Content -->
 
-You are currently viewing the repository of Suika2's doc-site, part of the Suika2 Project.
+You are currently viewing the repository of Suika2's English website, part of the Suika2 Project.
 
 You may have intended to visit [docs.suika2.com](https://docs.suika2.com/).
 
-**Note:** There are plans to remove both Japanese and Chinese translations from docs.suika2.com, please see below for alternatives:
+**Note:** Japanese and Chinese translations have been removed from docs.suika2.com, please see below for alternatives:
 
 日本語: [suika.com](https://suika2.com/)
 
@@ -20,5 +20,8 @@ You may have intended to visit [docs.suika2.com](https://docs.suika2.com/).
 
 ## Website Plans
 
+For the latest website updates, please see `notes.txt`.
+
 * Add 'Updates' Section
-* Clean Up Code (Remove tags from old versions of website still left over)
+* Finish code clean-up (just `documentation.html` and `documentation.css`)
+* Possible integration of Japanese documentation?

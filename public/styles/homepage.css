@@ -1,4 +1,5 @@
-.header-header {
+/* Header */
+header {
   width: 100%;
   display: flex;
   position: relative;
@@ -10,22 +11,22 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.header-logo-container {
+header .logo_box {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.header-logo {
+.logo {
   height: 3rem;
 }
-.header-language-container {
+header .button_box {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
-.header-language-button {
+header .documentation_button {
   color: var(--dl-color-gray-black);
   width: var(--dl-size-size-xlarge);
   text-align: center;
@@ -37,97 +38,87 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-white);
 }
-.header-language-button:hover {
+header .documentation_button:hover {
   transform: scale(1.02);
   background-color: var(--dl-color-gray-900);
 }
 @media(max-width: 991px) {
-  .header-language-button {
+  header .documentation_button {
     margin-left: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 767px) {
-  .header-header {
+  header {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .header-language-container {
+  header .button_box {
     display: none;
   }
 }
 @media(max-width: 479px) {
-  .header-header {
+  header {
     padding: var(--dl-space-space-unit);
   }
 }
 
-.footer-footer {
+/* Footer */
+footer {
+  margin: auto;
   width: 100%;
   display: flex;
-  position: relative;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
+  border-top: 1px solid var(--dl-color-gray-black);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: center;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
 }
-.footer-text {
+.footer_text_box {
   text-align: center;
 }
-.footer-link {
+.footer_kyou_link {
   margin-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
 @media(max-width: 767px) {
-  .footer-footer {
+  footer {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .footer-text {
+  .footer_text_box {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
-  .footer-text1 {
+  .footer_text_copyright {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
-  .footer-footer {
+  footer {
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .footer-text {
+  .footer_text_box {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .footer-text1 {
+  .footer_text_copyright {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
 }
 
-.homepage-container {
+/* Landing Section */
+.content {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -135,7 +126,7 @@
   align-items: center;
   flex-direction: column;
 }
-.homepage-introduction {
+.landing {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
@@ -148,25 +139,25 @@
   background-image: linear-gradient(90deg, rgba(253, 160, 116, 0.5) 0.00%,rgba(8, 8, 8, 0.66) 100.00%),url("public/playground_assets/roof-1500h.png");
   background-position: top left;
 }
-.homepage-title-container {
+.landing_title_box {
   display: flex;
   position: relative;
 }
-.homepage-title-text {
+.landing_title {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
 }
-.homepage-short-description {
+.landing_description {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
 }
-.homepage-download-e-mail-buttons {
+.landing_button_box {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.homepage-download-button {
+.landing_download_button {
   font-size: 0.75rem;
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
@@ -177,10 +168,10 @@
   text-transform: uppercase;
   text-decoration: none;
 }
-.homepage-download-button:hover {
+.landing_download_button:hover {
   transform: scale(1.02);
 }
-.homepage-e-mail-button {
+.landing_email_button {
   color: var(--dl-color-gray-white);
   font-size: 0.75rem;
   transition: 0.3s;
@@ -194,10 +185,12 @@
   text-decoration: none;
   background-color: transparent;
 }
-.homepage-e-mail-button:hover {
+.landing_email_button:hover {
   transform: scale(1.02);
 }
-.homepage-contact {
+
+/* Contact Section */
+.contact {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
@@ -207,28 +200,28 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.homepage-container1 {
+.contact_info_box {
   display: flex;
   margin-right: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
-.homepage-text {
+.contact_title {
   font-size: 3rem;
   max-width: 450px;
 }
-.homepage-text01 {
+.contact_description_box {
   width: 75%;
   margin-top: var(--dl-space-space-twounits);
   line-height: 2;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.homepage-btn-group {
+.contact_button_box {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.homepage-link {
+.contact_email_button {
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-twounits);
@@ -236,11 +229,11 @@
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.homepage-link:hover {
+.contact_email_button:hover {
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
-.homepage-link1 {
+.contact_discord_button {
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
   padding-top: var(--dl-space-space-unit);
@@ -249,15 +242,17 @@
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.homepage-link1:hover {
+.contact_discord_button:hover {
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
-.homepage-image {
+.contact_midori_image {
   width: 400px;
   object-fit: cover;
 }
-.homepage-team {
+
+/* Team Section */
+.team {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
@@ -266,10 +261,12 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.homepage-link2 {
+
+/* Kei's Card */
+.team_kei_link {
   display: contents;
 }
-.homepage-ktabata {
+.team_kei {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
@@ -277,7 +274,7 @@
   justify-content: space-between;
   text-decoration: none;
 }
-.homepage-card {
+.team_kei_card {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -287,17 +284,17 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.homepage-card:hover {
+.team_card:hover {
   transform: scale(1.02);
 }
-.homepage-profile-picture {
+.team_image_kei {
   width: 350px;
   height: 350px;
   object-fit: cover;
   flex-shrink: 0;
   border-radius: 0px;
 }
-.homepage-text04 {
+.team_kei_info_box {
   display: flex;
   align-items: flex-start;
   padding-top: var(--dl-space-space-twounits);
@@ -307,7 +304,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.homepage-role-text {
+.team_kei_role_box {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -315,24 +312,26 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.homepage-text05 {
+.team_kei_role {
   color: var(--dl-color-gray-500);
   font-weight: 600;
   text-transform: uppercase;
 }
-.homepage-text06 {
+.team_kei_title {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.homepage-text09 {
+.team_kei_description {
   color: var(--dl-color-gray-500);
   font-size: 1.25rem;
   line-height: 2;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.homepage-link3 {
+
+/* Kyou's Card */
+.team_kyou_link {
   display: contents;
 }
-.homepage-kyou {
+.team_kyou {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
@@ -340,7 +339,7 @@
   justify-content: space-between;
   text-decoration: none;
 }
-.homepage-card1 {
+.team_kyou_card {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -350,17 +349,17 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.homepage-card1:hover {
+.team_kyou_card:hover {
   transform: scale(1.02);
 }
-.homepage-profile-picture1 {
+.team_image_kyou {
   width: 350px;
   height: 350px;
   object-fit: cover;
   flex-shrink: 0;
   border-radius: 0px;
 }
-.homepage-text10 {
+.team_kyou_info_box {
   display: flex;
   align-items: flex-start;
   padding-top: var(--dl-space-space-twounits);
@@ -370,7 +369,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.homepage-role-text1 {
+.team_kyou_role_box {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -378,24 +377,26 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.homepage-text11 {
+.team_kyou_role {
   color: var(--dl-color-gray-500);
   font-weight: 600;
   text-transform: uppercase;
 }
-.homepage-text12 {
+.team_kyou_title {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.homepage-text15 {
+.team_kyou_description {
   color: var(--dl-color-gray-500);
   font-size: 1.25rem;
   line-height: 2;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.homepage-link4 {
+
+/* Atisuki's Card */
+.team_aitsuki_link {
   display: contents;
 }
-.homepage-aitsuki {
+.team_aitsuki {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
@@ -403,7 +404,7 @@
   justify-content: space-between;
   text-decoration: none;
 }
-.homepage-card2 {
+.team_aitsuki_card {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -413,17 +414,17 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.homepage-card2:hover {
+.team_aitsuki_card:hover {
   transform: scale(1.02);
 }
-.homepage-profile-picture2 {
+.team_image_aitsuki {
   width: 350px;
   height: 350px;
   object-fit: cover;
   flex-shrink: 0;
   border-radius: 0px;
 }
-.homepage-text19 {
+.team_aitsuki_info_box {
   display: flex;
   align-items: flex-start;
   padding-top: var(--dl-space-space-twounits);
@@ -433,7 +434,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.homepage-role-text2 {
+.team_aitsuki_role_box {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -441,24 +442,26 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.homepage-text20 {
+.team_aitsuki_role {
   color: var(--dl-color-gray-500);
   font-weight: 600;
   text-transform: uppercase;
 }
-.homepage-text23 {
+.team_aitsuki_title {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.homepage-text26 {
+.team_aitsuki_description {
   color: var(--dl-color-gray-500);
   font-size: 1.25rem;
   line-height: 2;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.homepage-link5 {
+
+/* Max's Card */
+.team_max_link {
   display: contents;
 }
-.homepage-max {
+.team_max {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-twounits);
@@ -466,7 +469,7 @@
   justify-content: space-between;
   text-decoration: none;
 }
-.homepage-card3 {
+.team_max_card {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -476,17 +479,17 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.homepage-card3:hover {
+.team_max_card:hover {
   transform: scale(1.02);
 }
-.homepage-profile-picture3 {
+.team_image_max {
   width: 350px;
   height: 350px;
   object-fit: cover;
   flex-shrink: 0;
   border-radius: 0px;
 }
-.homepage-text32 {
+.team_max_info_box {
   display: flex;
   align-items: flex-start;
   padding-top: var(--dl-space-space-twounits);
@@ -496,7 +499,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.homepage-role-text3 {
+.team_max_role_box {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -504,24 +507,26 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.homepage-text33 {
+.team_max_role {
   color: var(--dl-color-gray-500);
   font-weight: 600;
   text-transform: uppercase;
 }
-.homepage-text36 {
+.team_max_title {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.homepage-text39 {
+.team_max_description {
   color: var(--dl-color-gray-500);
   font-size: 1.25rem;
   line-height: 2;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.homepage-link6 {
+
+/* Minirop's Card */
+.team_minirop_link {
   display: contents;
 }
-.homepage-minirop {
+.team_minirop {
   width: 100%;
   display: flex;
   align-items: center;
@@ -530,7 +535,7 @@
   justify-content: space-between;
   text-decoration: none;
 }
-.homepage-card4 {
+.team_minirop_card {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -540,82 +545,17 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.homepage-card4:hover {
+.team_minirop_card:hover {
   transform: scale(1.02);
 }
-.homepage-profile-picture4 {
+.team_image_minirop {
   width: 350px;
   height: 350px;
   object-fit: cover;
   flex-shrink: 0;
   border-radius: 0px;
 }
-.homepage-text42 {
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: space-between;
-}
-.homepage-role-text4 {
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-halfunit);
-  flex-direction: row;
-  justify-content: space-between;
-}
-.homepage-text43 {
-  color: var(--dl-color-gray-500);
-  font-weight: 600;
-  text-transform: uppercase;
-}
-.homepage-text46 {
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
-}
-.homepage-text49 {
-  color: var(--dl-color-gray-500);
-  font-size: 1.25rem;
-  line-height: 2;
-  margin-bottom: var(--dl-space-space-twounits);
-}
-.homepage-link7 {
-  display: contents;
-}
-.homepage-matsuno-san {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-twounits);
-  flex-direction: column;
-  justify-content: space-between;
-  text-decoration: none;
-}
-.homepage-card5 {
-  width: 100%;
-  display: flex;
-  max-width: var(--dl-size-size-maxwidth);
-  box-shadow: 4px 4px 10px 0px rgba(18, 18, 18, 0.1);
-  transition: 0.3s;
-  align-items: stretch;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.homepage-card5:hover {
-  transform: scale(1.02);
-}
-.homepage-profile-picture5 {
-  width: 350px;
-  height: 350px;
-  object-fit: cover;
-  flex-shrink: 0;
-  border-radius: 0px;
-}
-.homepage-text55 {
+.team_minirop_info_box {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -626,7 +566,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.homepage-role-text5 {
+.team_minirop_role_box {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -634,24 +574,26 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.homepage-text56 {
+.team_minirop_role {
   color: var(--dl-color-gray-500);
   font-weight: 600;
   text-transform: uppercase;
 }
-.homepage-text59 {
+.team_minirop_title {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.homepage-text62 {
+.team_minirop_description {
   color: var(--dl-color-gray-500);
   font-size: 1.25rem;
   line-height: 2;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.homepage-link8 {
+
+/* Natsuno-san's Card */
+.team_natsuno_link {
   display: contents;
 }
-.homepage-contributors {
+.team_natsuno {
   width: 100%;
   display: flex;
   align-items: center;
@@ -660,7 +602,7 @@
   justify-content: space-between;
   text-decoration: none;
 }
-.homepage-card6 {
+.team_natsuno_card {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -670,17 +612,17 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.homepage-card6:hover {
+.team_natsuno_card:hover {
   transform: scale(1.02);
 }
-.homepage-profile-picture6 {
+.team_image_natsuno {
   width: 350px;
   height: 350px;
   object-fit: cover;
   flex-shrink: 0;
   border-radius: 0px;
 }
-.homepage-text67 {
+.team_natsuno_info_box {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -691,7 +633,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.homepage-role-text6 {
+.team_natsuno_role_box {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -699,54 +641,123 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.homepage-text68 {
+.team_natsuno_role {
   color: var(--dl-color-gray-500);
   font-weight: 600;
   text-transform: uppercase;
 }
-.homepage-text71 {
+.team_natsuno_title {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.homepage-text74 {
+.team_natsuno_description {
+  color: var(--dl-color-gray-500);
+  font-size: 1.25rem;
+  line-height: 2;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+
+/* Contributors Card */
+.team_contributors_link {
+  display: contents;
+}
+.team_contributors {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.team_contributors_card {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 4px 4px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.team_contributors_card:hover {
+  transform: scale(1.02);
+}
+.team_image_contributors {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 0px;
+}
+.team_contributors_info_box {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.team_contributors_role_box {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.team_contributors_role {
+  color: var(--dl-color-gray-500);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.team_contributors_title {
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.team_contributors_description {
   color: var(--dl-color-gray-500);
   width: 100%;
   font-size: 1.25rem;
   line-height: 2;
   margin-bottom: var(--dl-space-space-twounits);
 }
+
+/* Make Landing, Contact, and Team Sections Responsive */
 @media(max-width: 991px) {
-  .homepage-introduction {
+  .landing {
     flex-direction: column;
   }
-  .homepage-title-text {
+  .landing_title {
     text-align: center;
   }
-  .homepage-short-description {
+  .landing_description {
     text-align: center;
   }
-  .homepage-contact {
+  .contact {
     flex-direction: column;
   }
-  .homepage-container1 {
+  .contact_info_box {
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: 0px;
   }
-  .homepage-text {
+  .contact_title {
     text-align: center;
   }
-  .homepage-text01 {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-  }
-  .homepage-text02 {
+  .contact_description_box {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
-  .homepage-card {
+  .contact_description {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .team_kei_card {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -754,122 +765,122 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .homepage-card2 {
+  .team_aitsuki_card {
     flex-direction: row;
     justify-content: space-between;
   }
-  .homepage-card3 {
+  .team_max_card {
     flex-direction: row;
     justify-content: space-between;
   }
-  .homepage-card4 {
+  .team_minirop_card {
     flex-direction: row;
     justify-content: space-between;
   }
-  .homepage-card5 {
+  .team_natsuno_card {
     flex-direction: row;
     justify-content: space-between;
   }
-  .homepage-card6 {
+  .team_contributors_card {
     flex-direction: row;
     justify-content: space-between;
   }
 }
 @media(max-width: 767px) {
-  .homepage-introduction {
+  .landing {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .homepage-contact {
+  .contact {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .homepage-text01 {
+  .contact_description_box {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .homepage-text02 {
+  .contact_description {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .homepage-image {
+  .contact_midori_image {
     width: 80%;
   }
-  .homepage-team {
+  .team {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .homepage-card {
+  .team_kei_card {
     flex-direction: column;
   }
-  .homepage-profile-picture {
+  .team_image_kei {
     width: 100%;
   }
-  .homepage-card1 {
+  .team_kyou_card {
     flex-direction: column;
   }
-  .homepage-profile-picture1 {
+  .team_image_kyou {
     width: 100%;
   }
-  .homepage-card2 {
+  .team_aitsuki_card {
     flex-direction: column;
   }
-  .homepage-profile-picture2 {
+  .team_image_aitsuki {
     width: 100%;
   }
-  .homepage-card3 {
+  .team_max_card {
     flex-direction: column;
   }
-  .homepage-profile-picture3 {
+  .team_image_max {
     width: 100%;
   }
-  .homepage-card4 {
+  .team_minirop_card {
     flex-direction: column;
   }
-  .homepage-profile-picture4 {
+  .team_image_minirop {
     width: 100%;
   }
-  .homepage-card5 {
+  .team_natsuno_card {
     flex-direction: column;
   }
-  .homepage-profile-picture5 {
+  .team_image_natsuno {
     width: 100%;
   }
-  .homepage-card6 {
+  .team_contributors_card {
     flex-direction: column;
   }
-  .homepage-profile-picture6 {
+  .team_image_contributors {
     width: 100%;
   }
 }
 @media(max-width: 479px) {
-  .homepage-introduction {
+  .landing {
     width: 100%;
     padding: var(--dl-space-space-twounits);
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .homepage-download-e-mail-buttons {
+  .landing_button_box {
     flex-direction: column;
   }
   .homepage-e-mail-button {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
-  .homepage-contact {
+  .contact {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .homepage-container1 {
+  .contact_info_box {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .homepage-btn-group {
+  .contact_button_box {
     flex-direction: column;
   }
-  .homepage-team {
+  .team {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);

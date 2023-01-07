@@ -1,4 +1,6 @@
-.page-container {
+/* NOTE: 'pnf' = 'Page Not Found' */
+
+.content {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +8,7 @@
   align-items: center;
   flex-direction: column;
 }
-.page-contact {
+.pnf_box {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-threeunits);
@@ -16,28 +18,28 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.page-container1 {
+.pnf_info_box {
   display: flex;
   margin-right: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
 }
-.page-text {
+.pnf_title {
   font-size: 3rem;
   max-width: 450px;
 }
-.page-text1 {
+.pnf_description_box {
   width: 100%;
   margin-top: var(--dl-space-space-twounits);
   line-height: 2;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.page-btn-group {
+.pnf_button_box {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.page-navlink {
+.pnf_homepage_button {
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-twounits);
@@ -45,66 +47,66 @@
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.page-navlink:hover {
+.pnf_homepage_button:hover {
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
-.page-image {
+.pnf_image_midori_sad {
   width: 400px;
   object-fit: cover;
 }
 @media(max-width: 991px) {
-  .page-contact {
+  .pnf_box {
     flex-direction: column;
   }
-  .page-container1 {
+  .pnf_info_box {
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: 0px;
   }
-  .page-text {
+  .pnf_title {
     text-align: center;
   }
-  .page-text1 {
+  .pnf_description_box {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
-  .page-text2 {
+  .pnf_description {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
 }
 @media(max-width: 767px) {
-  .page-contact {
+  .pnf_box {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .page-text1 {
+  .pnf_description_box {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .page-text2 {
+  .pnf_description {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .page-image {
+  .pnf_image_midori_sad {
     width: 80%;
   }
 }
 @media(max-width: 479px) {
-  .page-contact {
+  .pnf_box {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .page-container1 {
+  .pnf_info_box {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .page-btn-group {
+  .pnf_button_box {
     flex-direction: column;
   }
 }
