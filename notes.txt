@@ -8,8 +8,16 @@ For enquiries regarding https://suika2.com/ or the documentation hosted there, p
 
 You can also contact us via the Official Suika2 Discord.
 
+
 ====================================================================================================
-Version               :       1 (Part 1 / 2)
+Version               :       2 (Part 1 / 1)
+Date                  :       Seventh January (Saturday), 2023 (Later)
+Author                :       Kyou
+Update Notes          :       Moved to revised template for time-saving reasons
+                              Documentation nav-link now directly jump to documentation, instead of a landing page
+                              Added Updates and made with suika2 Section.
+====================================================================================================
+Version               :       1 (Part 1 / 1)
 Date                  :       Seventh January (Saturday), 2023
 Author                :       Kyou
 Update Notes          :       Complete rewrite of all css-classes
