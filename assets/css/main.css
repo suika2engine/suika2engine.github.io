@@ -2464,6 +2464,27 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		
+	}
+
+	.img__description {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(29, 106, 154, 0.72);
+		color: #fff;
+		visibility: hidden;
+		opacity: 0;
+
+		/* transition effect. not necessary */
+		transition: opacity .2s, visibility .2s;
+	}
+
+	.image:hover .img__description {
+		visibility: visible;
+		opacity: 1;
 	}
 
 		.image:after {
