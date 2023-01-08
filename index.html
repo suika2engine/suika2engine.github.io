@@ -1,215 +1,180 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en, ja"> <!-- Languages this page are in, Japanese is also used in case of Japanese-only titles -->
 	<head>
 		<title>Home – Suika2</title>
-		<meta name="description" content="Suika2 is an open-source, cross-platform visual novel development engine.">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-		<link rel="stylesheet" href="assets/css/main.css"/>
-		<link rel="icon" type="image/x-icon" href="images/logo.png">
+		<meta charset="utf-8"/> <!-- Proper encoding for accurate language and icon depications -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/> <!-- Responsive Aid -->
+		<meta name="description" content="Suika2 is an open-source, cross-platform visual novel development engine."/> <!-- Page Description -->
+		<meta name="keywords" content="Suika2 visual novel engine, Suika2, visual novel engine, documentation"/> <!-- Keywords for Search Indexing -->
+		<link rel="icon" type="image/x-icon" href="images/logo.png"> <!-- Site icon -->
+		<link rel="stylesheet" href="assets/css/main.css"/> <!-- Stylesheet -->
 	</head>
 	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<a class="logo" href="/">Suika2</a>
+				<nav id="nav">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li>
+							<a href="#" class="icon solid fa-angle-down">About Us</a>
+							<ul>
+								<li><a href="articles/team.html">Our Team</a></li>
+								<li><a href="articles/history.html">Our History</a></li>
+							</ul>
+						</li>
+						<li><a href="docs/home">Documentation</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<div id="banner" class="wrapper">
+				<div class="inner">
+					<div class="content">
+						<h1>Suika2</h1>
+						<p>An open-source, cross-platform visual novel development engine.</p>
+						<ul class="actions">
+							<li><a href="https://github.com/suika2engine/suika2/releases/latest/" class="button large primary scrolly">Get started!</a></li>
+						</ul>
+					</div>
+					<div class="image-wrapper">
+						<img src="images/frame.png" class="frame" alt=""/>
+						<div class="image">
+							<img src="images/screenshot.jpg" alt=""/>
+						</div>
+					</div>
+				</div>
+			</div>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header" class="alt">
-
-						<!-- Logo -->
-							<div class="logo">
-								<a href="index.html"><strong>Suika2</strong> 11.10</a>
-							</div>
-
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li class="current"><a href="index.html">Home</a></li>
-									<li>
-										<a href="#" class="icon solid fa-angle-down">About Us</a>
-										<ul>
-											<li><a href="#team">Our Team</a></li>
-											<li><a href="articles/history.html">Our History</a></li>
+				<!-- One -->
+					<section id="one" class="wrapper style1">
+						<div class="inner">
+							<div class="spotlights">
+								<div class="spotlight">
+									<div class="image fit">
+										<img src="images/pic02.jpg" alt="" />
+									</div>
+									<div class="content">
+										<h2>Meet the Team</h2>
+										<p>
+											With members from Asia, Europe, and Oceania, we're a truly global team of passionate developers, designers, and writers
+											who love visual novels, stories, and cross-platform software. Get to know our team and a list of awesome contributors.
+										</p>
+										<ul class="actions">
+											<li><a href="articles/team.html" class="button primary">Meet the Team</a></li>
 										</ul>
-									</li>
-									<li><a href="docs/home">Documentation</a></li>
+									</div>
+								</div>
+								<div class="spotlight">
+									<div class="image fit alt">
+										<img src="images/pic03.jpg" alt="" />
+									</div>
+									<div class="content">
+										<h2>Latest Updates</h2>
+										<p>
+											Suika2 is forever expanding its feature-set, so it's important for developers new and old to check out the differences
+											and ensure they're using the best version of Suika2 in the creation of their next project.
+										</p>
+										<ul class="actions">
+											<li><a href="https://github.com/suika2engine/suika2/releases" class="button primary">Release Notes</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="spotlight">
+									<div class="image fit">
+										<img src="images/pic04.jpg" alt="" />
+									</div>
+									<div class="content">
+										<h2>Made with Suika2</h2>
+										<p>
+											While Suika2 may be relatively young, that hasn't stopped some creative induviduals from releasing some exciting and interesting titles,
+											you can see a list of some of these here.
+										</p>
+										<ul class="actions">
+											<li><a href="articles/titles.html" class="button primary">Begin Exploring (WIP)</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style1">
+						<div class="inner">
+							<div class="features">
+								<div class="feature">
+									<span class="icon solid alt major fa-cube"></span>
+									<h2>Open-Source</h2>
+									<p>Hosted via GitHub, Suika2 is open to pull requests and issue notices by developers and the community as a whole.</p>
+								</div>
+								<div class="feature">
+									<span class="icon solid alt major fa-camera-retro"></span>
+									<h2>Documented</h2>
+									<p>With documentation in Japanese and English as well as a command reference in Chinese (simplified), you can explore Suika2 easier than ever!</p>
+								</div>
+								<div class="feature">
+									<span class="icon solid alt major fa-sitemap"></span>
+									<h2>Community Driven</h2>
+									<p>With a high percentage of feature requests, bug reports, and testing from our community, you can take part by simply downloading and using the engine.</p>
+								</div>
+								<div class="feature">
+									<span class="icon solid alt major fa-laptop"></span>
+									<h2>Cross-Platform</h2>
+									<p>With Windows, Mac, Linux, Web, and many other platforms supported in both play and develop contexts, you can rest easy knowing what you see is what you get.</p>
+								</div>
+								<div class="feature">
+									<span class="icon solid alt major fa-code"></span>
+									<h2>Powerful, yet Elegant</h2>
+									<p>With a simple yet powerful markup language and an advanced scripting language, you can create impressive stories and clean scripts simultaneously.</p>
+								</div>
+								<div class="feature">
+									<span class="icon solid alt major fa-paper-plane"></span>
+									<h2>Lightweight</h2>
+									<p>Written in C, Suika2 runs as a native application, meaning players and developers don't have to worry about clutter slowing down their experience.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1">
+						<div class="inner">
+							<div class="box cta">
+								<div class="content">
+									<h2>あなたは日本語を話しますか？</h2>
+									<p>
+										Suika2は、ノベルゲームを制作するためのツールです。
+										ノベルゲームエンジンやノベルゲーム制作ソフトとも呼ばれます。
+										フリーソフトなので無料でゲームを作成できて、スマホにも対応しています。
+										ノベルゲームの作り方を知らなくても、Suika2なら誰でも簡単に覚えられます。
+									</p>
+								</div>
+								<ul class="actions stacked">
+									<li><a href="https://suika2.com/dl.html#relnote" class="button primary large fit">更新情報</a></li>
+									<li><a href="https://suika2.com/wiki-jp/" class="button large fit">Wiki 日本語訳</a></li>
 								</ul>
-							</nav>
-
-					</header>
-					
-				<!-- Banner -->
-					<section id="banner">
-						<div class="content">
-							<h1>Suika2</h1>
-							<p>An open-source, cross-platform visual novel development engine</p>
-							<p>We're still getting things sorted here, so expect some 'Lorem ipsum...' and placeholder images!</p>
-						</div>
-						<a href="#first" class="more scrolly">Learn More</a>
-					</section>
-
-				<!-- Section -->
-					<section class="main alt" id="first">
-						<header>
-							<h2>Introducing Suika2</h2>
-							<p>Select an option below to learn more.</p>
-						</header>
-						<div class="inner">
-							<article class="post style2">
-								<div class="content">
-									<header>
-										<span class="category">Update</span>
-										<h3>2/11.10</h3>
-									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus.</p>
-									<ul class="actions">
-										<li><a href="#" class="button next">Release Note</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic05.jpg" alt="" /></div>
-							</article>
-							<article class="post style2 alt">
-								<div class="content">
-									<header>
-										<span class="category">Magna sed</span>
-										<h3>Integer nulla</h3>
-									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus.</p>
-									<ul class="actions">
-										<li><a href="#" class="button next">Learn More</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic06.jpg" alt="" /></div>
-							</article>
+							</div>
 						</div>
 					</section>
+			</div>
 
-				<!-- Section -->
-					<section id="team" class="main">
-						<header>
-							<h2>Our Team</h2>
-							<p>With memebers from Asia, Oceania, and Europe, we're a truly global team.</p>
-						</header>
-						<div class="inner">
-							<ul class="faces">
-								<li>
-									<span class="image"><img src="images/pfp/k.jpg" alt="" /></span>
-									<h3>ktabata 'K'</h3>
-									<p>Founder, Lead Programmer</p>
-								</li>
-								<li>
-									<span class="image"><img src="images/pfp/a.jpg" alt="" /></span>
-									<h3>Aitsuki</h3>
-									<p>Obfuscation, Video, Advisor</p>
-								</li>
-								<li>
-									<span class="image"><img src="images/pfp/k.jpg" alt="" /></span>
-									<h3>Kyou</h3>
-									<p>Documentation, Web, Advisor</p>
-								</li>
-								<li>
-									<span class="image"><img src="images/pfp/m.jpg" alt="" /></span>
-									<h3>Max</h3>
-									<p>Graphic Designer, Advisor</p>
-								</li>
-							</ul>
-							<ul class="faces">
-								<li>
-									<span class="image"><img src="images/pfp/m.jpg" alt="" /></span>
-									<h3>Minirop</h3>
-									<p>Code Review, Advisor</p>
-								</li>
-								<li>
-									<span class="image"><img src="images/pfp/m.jpg" alt="" /></span>
-									<h3>Matsuno-san</h3>
-									<p>Tester, Advisor</p>
-								</li>
-								<li>
-									<span class="image"><img src="images/pfp/c.jpg" alt="" /></span>
-									<h3>Contributors</h3>
-									<p>Varioius</p>
-								</li>
-								<li>
-									<span class="image"><img src="images/pfp/m.jpg" alt="" /></span>
-									<h3>Midori and Rina</h3>
-									<p>Moral Support</p>
-								</li>
-							</ul>
+		<!-- Footer -->
+			<div id="footer" class="wrapper">
+				<div class="inner">
+					<section class="contact-info">
+						<div class="item">
+							<span class="icon solid alt fa-envelope"></span>
+							<a href="mailto:midori@suika2.com">midori@suika2.com</a>
 						</div>
 					</section>
-
-				<!-- Section -->
-					<section class="main accent2">
-						<header>
-							<h2>Made With Suika2</h2>
-							<p>Some recently released titles.</p>
-						</header>
-						<div class="inner">
-							<article class="post alt">
-								<div class="content">
-									<header>
-										<span class="category">Lorem ipsum</span>
-										<h3>Finibus et magna</h3>
-									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus. Lorem ipsum sit tempus amet feugiat.</p>
-									<ul class="actions">
-										<li><a href="#" class="button next">Learn More</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic07.jpg" alt="" /></div>
-							</article>
-							<article class="post">
-								<div class="content">
-									<header>
-										<span class="category">Sed etiam</span>
-										<h3>Nam adipiscing</h3>
-									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus. Lorem ipsum sit tempus amet feugiat.</p>
-									<ul class="actions">
-										<li><a href="#" class="button next">Learn More</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic08.jpg" alt="" /></div>
-							</article>
-							<article class="post alt">
-								<div class="content">
-									<header>
-										<span class="category">Sapien erat</span>
-										<h3>Amet sed nullam</h3>
-									</header>
-									<p>Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec sed lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam magna tempus. Lorem ipsum sit tempus amet feugiat.</p>
-									<ul class="actions">
-										<li><a href="#" class="button next">Learn More</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic09.jpg" alt="" /></div>
-							</article>
-							<article class="post">
-								<div class="content">
-									<header>
-										<span class="category">Earlier Releases</span>
-										<h3>Legacy Titles</h3>
-									</header>
-									<p>While we'd love to shine the spotlight on every title, we've only got so much space – don't worry though, we've got archives! Have a look at some legacy titles that make use of older versions of the Suika2 Engine, there's some fantastic content just waiting to be read!</p>
-									<ul class="actions">
-										<li><a href="articles/legacy.html" class="button next">Get Exploring!</a></li>
-									</ul>
-								</div>
-								<div class="image" data-position="center"><img src="images/pic08.jpg" alt="" /></div>
-							</article>
-						</div>
-					</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="https://github.com/suika2engine/" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="mailto:midori@suika2.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-						<p class="copyright">&copy; The Suika2 Development Team. All rights reserved.</p>
-						<p>Website revisions and maintenance by <a href="https://github.com/kyourobert">Kyou</a></p>
-					</footer>
-
+					<p class="copyright">&copy; Suika2 Development Team. All rights reserved. Revised and Maintained by <a href="https://github.com/kyourobert">Kyou</a>.</p>
+				</div>
 			</div>
 
 		<!-- Scripts -->
