@@ -8,7 +8,7 @@ title: Home
   <h1>Suika2 – Documentation</h1>
 </div>
 
-[![Documentation](https://img.shields.io/badge/Documentation-Up%20to%20Date!%20(2%2011.10)-dark--green?style=for-the-badge&color=dark-green)](https://github.com/suika2engine/suika2/wiki)
+[![Documentation](https://img.shields.io/badge/Documentation-Up%20to%20Date!%20(2%2012.0)-dark--green?style=for-the-badge&color=dark-green)](https://github.com/suika2engine/suika2/wiki)
 
 このWikiの日本語訳は[こちら](https://suika2.com/wiki-jp/)をご覧ください。
 
