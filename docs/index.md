@@ -8,8 +8,6 @@ title: Home
   <h1>Suika2 – Documentation</h1>
 </div>
 
-[![Documentation](https://img.shields.io/badge/Documentation-Up%20to%20Date!%20(2%2011.10%20POST)-dark--green?style=for-the-badge&color=dark-green)](https://github.com/suika2engine/suika2/wiki)
-
 このWikiの日本語訳は[こちら](https://suika2.com/wiki-jp/)をご覧ください。
 
 Suika2 is an open-source, cross-platform visual novel development engine that allows you to create a feature-rich visual novel
